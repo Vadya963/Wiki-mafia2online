@@ -1,6 +1,6 @@
 | ID | Model name | Picture |
 |:-------:|:-------:|:----------:|
-| 0 | Ascot Bailey | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823454064488601/0F5A0953F6D9988F400C3D81E9B51B0E2FC3FD94/) |
+| 0 | Ascot Bailey | [alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823454064488601/0F5A0953F6D9988F400C3D81E9B51B0E2FC3FD94/) |
 | 1 | Berkley Kingfisher | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823454064432584/7597F317CD321EF0D004AE1993FBD5FAFA2C6C31/) |
 | 2 | Прицеп с топливом | ![alt text](https://images2.wikia.nocookie.net/__cb20100919123730/mafia2removedfeatures/images/thumb/8/8a/Trago3.png/800px-Trago3.png) |
 | 3 | GAI 353 Military Truck | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823520160191753/3F6C6CB27B6BAA7B7E3DA4DA8B76AF2BFC3132B9/) |
