@@ -1,16 +1,6 @@
----
-id: vehicles
-title: Vehicles
-hide_title: true
----
-
-# Vehicles
-
-## Cars
-
 | Picture | Vehicle | Model name | Hash key |
 |:-------:|:-------:|:----------:|:--------:|
-| ![alt text](Vehicles/ADMIRAL.jpg "Car") | Admiral | ADMIRAL | 0x4B5C5320 |
+| ![alt text](https://steamuserimages-a.akamaihd.net/ugc/5118935530938527659/A7936F5EC2A26676B08123248A74261E786B4FAB/) | Admiral | ADMIRAL | 0x4B5C5320 |
 | ![alt text](Vehicles/AIRTUG.jpg "Car") | AirTug | AIRTUG | 0x5D0AAC8F |
 | ![alt text](Vehicles/AMBULANCE.jpg "Car") | Ambulance | AMBULANCE | 0x45D56ADA |
 | ![alt text](Vehicles/BANSHEE.jpg "Car") | Banshee | BANSHEE | 0xC1E908D2 |
