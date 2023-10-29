@@ -34,7 +34,7 @@
 | 31 | Shubert 38 Panel Truck | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313269371/7DCFA1C0E9A6AE2F50812400E7AC9E5F67F7CB0B/) |
 | 32 | Shubert 38 Panel Truck(с ящиком) | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313269371/7DCFA1C0E9A6AE2F50812400E7AC9E5F67F7CB0B/) |
 | 33 | Shubert 38 Taxi | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313242575/87B273678CE95D07C1A55738E4232DAE00DAA44C/) |
-| 34 | Shubert Truck | ![alt text](https://aquarity.gamer.ru/system/attached_images/images/000/219/642/original/28_shubert_lkw.jpg) |
+| 34 | Shubert Truck | ![alt text](https://igcd.net/images2/030/829.jpg) |
 | 35 | Shubert Truck Flatbed | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313494538/744C95BC64267CEC6829B94C0F28AC3E2E9F0874/) |
 | 36 | Shubert Truck Flatbed(с сигаретами) | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313494538/744C95BC64267CEC6829B94C0F28AC3E2E9F0874/) |
 | 37 | Shubert Truck Covered | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313423705/B14F8EBCC5CCCB0801AEF149B4FED38F4CA835DD/) |
