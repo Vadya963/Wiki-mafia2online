@@ -1,5 +1,3 @@
-# Weapons
-
 | ID | Weapon name |
 |:--:|:-----------:|
 | 2 | Model 12 Revolver |
