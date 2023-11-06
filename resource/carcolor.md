@@ -1,5 +1,3 @@
-# Colour
-
 ```nut
 vehicle_colors = {
 	[1] = [154,154,154],
