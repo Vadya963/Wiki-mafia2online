@@ -4,6 +4,7 @@
 - [attachBlipToPlayer](#attachBlipToPlayer)
 - [attachBlipToVehicle](#attachBlipToVehicle)
 - [callEvent](#callEvent)
+- [clamp](#clamp)
 ---
 
 ### addCommandHandler
@@ -19,8 +20,8 @@ addCommandHandler(string command, function)
 - **function**: The function to call when the command is typed
 
 #### Return Values
-- **true** successfully
-- **false** incorrect
+- **true** - Successfully
+- **false** - Incorrect
 
 #### Example
 ```js
@@ -44,8 +45,8 @@ addEventHandler(string event, function)
 - **function**: The function which will be called when the event is triggered
 
 #### Return Values
-- **true** successfully
-- **false** incorrect
+- **true** - Successfully
+- **false** - Incorrect
 
 #### Example
 ```js
@@ -70,8 +71,8 @@ attachBlipToPed(int blipid, int pedid)
 - **int pedid**: The ID of the ped
 
 #### Return Values
-- **true** successfully
-- **false** incorrect
+- **true** - Successfully
+- **false** - Incorrect
 
 #### Example
 ```js
@@ -99,8 +100,8 @@ attachBlipToPlayer(int blipid, int playerid)
 - **int playerid**: The ID of the player
 
 #### Return Values
-- **true** successfully
-- **false** incorrect
+- **true** - Successfully
+- **false** - Incorrect
 
 #### Example
 ```js
@@ -126,8 +127,8 @@ attachBlipToVehicle(int blipid, int vehicleid)
 - **int vehicleid**: The ID of the vehicle
 
 #### Return Values
-- **true** successfully
-- **false** incorrect
+- **true** - Successfully
+- **false** - Incorrect
 
 #### Example
 ```js
@@ -154,8 +155,8 @@ callEvent(string event, ...)
 - **...** : (Optional) Arguments to pass onto the event
 
 #### Return Values
-- **true** successfully
-- **false** incorrect
+- **true** - Successfully
+- **false** - Incorrect
 
 #### Example
 ```js
@@ -172,4 +173,30 @@ function customEventFnc( total )
     log( "Total is: " + total );
 }
 addEventHandler ( "customEvent", customEventFnc );
+```
+---
+### clamp
+This function is used to clamp a value between a minimum float and maximum float value.
+
+#### Syntax
+```js
+clamp(float minimum, float value, float maximum)
+```
+
+#### Arguments
+- **float minimum**: The minimum float
+- **float value**: The value
+- **float maximum**: The maximum float
+
+#### Return Values
+- **float** - The clamped value
+
+#### Example
+```js
+function init()
+{
+ // This would output: Clamp: 3
+ log("Clamp: " + clamp(1.0, 10.0, 3.0) );
+}
+addEventHandler( "onScriptInit", init );
 ```
