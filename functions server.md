@@ -1,5 +1,6 @@
 - [addCommandHandler](#addCommandHandler)
 - [addEventHandler](#addEventHandler)
+- [attachBlipToPed](#attachBlipToPed)
 ---
 
 ### addCommandHandler
@@ -43,4 +44,29 @@ function init()
     setMapName( "My Map Name" );
 }
 addEventHandler( "onScriptInit", init );
+```
+---
+### attachBlipToPed
+This function is used to attach a blip to a ped.
+
+#### Syntax
+```js
+attachBlipToPed(int blipid, int pedid)
+```
+
+#### Arguments
+- **int blipid**: The ID of the blip you want to establish
+- **int pedid**: The ID of the ped
+
+#### Example
+```js
+//CLIENT
+addCommandHandler ( "ped", 
+function ( playerid )
+{
+    local pedid = createPed( 0, 100.0, 100.0, -20.0, 0.0, 0.0, 0.0 );
+    local blipid = createBlip( -300.0, 120.0, 0, 1 );
+    attachBlipToPed( blipid, pedid );
+    return 1;
+});
 ```
