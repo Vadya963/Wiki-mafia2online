@@ -5,6 +5,7 @@
 - [attachBlipToVehicle](#attachBlipToVehicle)
 - [callEvent](#callEvent)
 - [clamp](#clamp)
+- [createBlip](#createBlip)
 ---
 
 ### addCommandHandler
@@ -195,8 +196,34 @@ clamp(float minimum, float value, float maximum)
 ```js
 function init()
 {
- // This would output: Clamp: 3
- log("Clamp: " + clamp(1.0, 10.0, 3.0) );
+    // This would output: Clamp: 3
+    log("Clamp: " + clamp(1.0, 10.0, 3.0) );
+}
+addEventHandler( "onScriptInit", init );
+```
+---
+### createBlip
+This function is used to create a blip on the mini-map.
+
+#### Syntax
+```js
+createBlip(float x, float y, int library, int icon)
+```
+
+#### Arguments
+- **float x**: The X position of the blip
+- **float y**: The Y position of the blip
+- **int library**: The ID of the icon's library
+- **int icon**: The ID of the icon
+
+#### Return Values
+- **int** - The created blipid
+
+#### Example
+```js
+function init()
+{
+    createBlip( -300.0, 120.0, 0, 1 );
 }
 addEventHandler( "onScriptInit", init );
 ```
