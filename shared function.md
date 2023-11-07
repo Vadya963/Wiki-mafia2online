@@ -165,6 +165,7 @@ function init()
     callEvent("customEvent", 53);
 }
 addEventHandler( "onScriptInit", init );
+
 function customEventFnc( total )
 {
     // This would output "Total Is: 53"
