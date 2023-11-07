@@ -15,7 +15,7 @@ addCommandHandler(string command, function)
 - **function**: The function to call when the command is typed
 
 #### Example
-```lua
+```js
 addCommandHandler( "heal",
 function( playerid )
 {
