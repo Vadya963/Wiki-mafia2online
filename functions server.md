@@ -1,9 +1,9 @@
 - [addCommandHandler](#addCommandHandler)
-
+- [addEventHandler](#addEventHandler)
 ---
 
 ### addCommandHandler
-This function is used to add a command handler
+This function is used to add a command handler.
 
 #### Syntax
 ```js
@@ -23,3 +23,24 @@ function( playerid )
 });
 ```
 ---
+### addEventHandler
+This function is used to create a function handler for an event.
+
+#### Syntax
+```js
+addEventHandler(string event, function)
+```
+
+#### Arguments
+- **string event**: The name of the event
+- **function**: The function which will be called when the event is triggered
+
+#### Example
+```js
+function init()
+{
+    setGameModeText( "My GameMode Name" );
+    setMapName( "My Map Name" );
+}
+addEventHandler( "onScriptInit", init );
+```
