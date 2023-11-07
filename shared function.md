@@ -151,7 +151,7 @@ callEvent(string event, ...)
 
 #### Arguments
 - **string event**: The event name
-- **...**: (Optional) Arguments to pass onto the event
+- **...** : (Optional) Arguments to pass onto the event
 
 #### Return Values
 - **true** successfully
