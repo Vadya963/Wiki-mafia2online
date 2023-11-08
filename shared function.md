@@ -26,6 +26,7 @@ addCommandHandler(string command, function)
 
 #### Example
 ```js
+//SERVER
 addCommandHandler( "heal",
 function( playerid )
 {
@@ -51,6 +52,7 @@ addEventHandler(string event, function)
 
 #### Example
 ```js
+//SERVER
 function init()
 {
     setGameModeText( "My GameMode Name" );
@@ -106,6 +108,7 @@ attachBlipToPlayer(int blipid, int playerid)
 
 #### Example
 ```js
+//SERVER
 addCommandHandler ( "run", 
 function ( playerid )
 {
@@ -133,6 +136,7 @@ attachBlipToVehicle(int blipid, int vehicleid)
 
 #### Example
 ```js
+//SERVER
 addCommandHandler ( "run", 
 function ( playerid )
 {
@@ -161,6 +165,7 @@ callEvent(string event, ...)
 
 #### Example
 ```js
+//SERVER
 function init()
 {
     // Call customEvent and pass 53 as an argument
@@ -194,6 +199,7 @@ clamp(float minimum, float value, float maximum)
 
 #### Example
 ```js
+//SERVER
 function init()
 {
     // This would output: Clamp: 3
@@ -221,6 +227,7 @@ createBlip(float x, float y, int library, int icon)
 
 #### Example
 ```js
+//SERVER
 function init()
 {
     createBlip( -300.0, 120.0, 0, 1 );
