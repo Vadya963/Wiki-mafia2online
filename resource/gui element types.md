@@ -1,4 +1,4 @@
-| ID |  Name | Picture |
+| ID | Constant | Picture |
 |:-:|:-----------:|:-----------:|
 | 0 | ELEMENT_TYPE_WINDOW | ![alt text](https://wiki.multitheftauto.com/images/b/b1/Gui-window.png) |
 | 1 | ELEMENT_TYPE_EDIT | ![alt text](https://wiki.multitheftauto.com/images/b/bc/Gui-edit.png) |
