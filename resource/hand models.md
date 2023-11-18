@@ -20,3 +20,43 @@
 | 18 | Mauser 98k sniper | SNIPER |
 | 19 | Bazooka | Bazook |
 | 20 | Grenade MkII | grenad |
+| 21 | Molotov | Molotov2 |
+| 22 | Knife | knife |
+| 23 | Knuckleduster | Boxer |
+| 24 | Wrench | Hasak |
+| 25 | Pipe | Pipe_FMV |
+| 26 | Chopper | Sekac |
+| 27 | Crowbar | pacidl |
+| 28 | Pendrek | pendrk |
+| 29 | Bottle | Lahev |
+| 30 | Torch | baterk |
+| 31 | Stìrka na okna | sterka |
+| 32 | Baseball bat | Palka |
+| 33 | Cue | TAGO |
+| 34 | Shovel | lopata |
+| 35 | Snow shovel | lopata_na_snih |
+| 36 | Pick |  |
+| 37 | Broom | KOSTE |
+| 38 | Gasoline container | kanistr |
+| 39 | money | money |
+| 40 | suit | CS_jacketANIM |
+| 41 | PaperBag | CS_taskaANIM |
+| 42 | Pencil | tuzka |
+| 43 | Box | DE_bedna |
+| 44 | Bottle | DE_lahev01 |
+| 45 | Keys | POklice |
+| 46 | Suitcase | kufrik |
+| 47 | Newspaper | news_small |
+| 48 | HotDog | 7hotdog |
+| 49 | Coffee | kafe_salek |
+| 50 | Beer | FB_beer_full |
+| 51 | Seagift Box | SG_bedna |
+| 52 | Policeblok | POLICE_blok |
+| 53 | Pouta-POLICE | pouta |
+| 54 | ball | ball_basket |
+| 55 | LTC | POLICE_listek |
+| 56 | Policepencil | POLICE_tuzka |
+| 57 | Penalty | POLICE_listek |
+| 58 | Cigarette Blues | cig_blues |
+| 59 | Cigarette Reds | cig_reds1 |
+| 60 | Cigarette Whites | cig_whites |
