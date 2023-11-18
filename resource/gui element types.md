@@ -1,6 +1,6 @@
-|  Name |
+|  Name | Picture |
 |:-----------:|
-| ELEMENT_TYPE_WINDOW |
+| ELEMENT_TYPE_WINDOW | ![alt text](https://wiki.multitheftauto.com/images/b/b1/Gui-window.png) |
 | ELEMENT_TYPE_EDIT |
 | ELEMENT_TYPE_BUTTON |
 | ELEMENT_TYPE_CHECKBOX (no working) |

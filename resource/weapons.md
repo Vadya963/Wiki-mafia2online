@@ -1,4 +1,4 @@
-| ID | Weapon name |  Picture |
+| ID | Weapon name | Picture |
 |:--:|:-----------:|:-----------:|
 | 2 | Model 12 Revolver | ![alt text](weapons/2.png) |
 | 3 | Mauser C96 | ![alt text](weapons/3.png) |
