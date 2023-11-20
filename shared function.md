@@ -6,6 +6,7 @@
 - [callEvent](#callEvent)
 - [clamp](#clamp)
 - [createBlip](#createBlip)
+- [date](#date)
 ---
 
 ### addCommandHandler
@@ -231,6 +232,28 @@ createBlip(float x, float y, int library, int icon)
 function init()
 {
     createBlip( -300.0, 120.0, 0, 1 );
+}
+addEventHandler( "onScriptInit", init );
+```
+---
+### date
+This function is used to return the current date.
+
+#### Syntax
+```js
+date()
+```
+
+#### Return Values
+- **table** -  day, month, year and yearday
+
+#### Example
+```js
+//SERVER
+function init()
+{
+    local currentDate = date();
+    log( currentDate["day"] + "," + currentDate["month"] + "," + currentDate["year"] + "," +currentDate["yearday"] );
 }
 addEventHandler( "onScriptInit", init );
 ```
