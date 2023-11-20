@@ -78,6 +78,93 @@ function init()
 addEventHandler( "onScriptInit", init );
 ```
 ---
+### callEvent
+This function is used to call an event created by addEventHandler
+
+#### Syntax
+```js
+callEvent(string event, ...)
+```
+
+#### Arguments
+- **string event**: The event name
+- **...** : (Optional) Arguments to pass onto the event
+
+#### Return Values
+- **true** - Successfully
+- **false** - Incorrect
+
+#### Example
+```js
+//SERVER
+function init()
+{
+	// Call customEvent and pass 53 as an argument
+	callEvent("customEvent", 53);
+}
+addEventHandler( "onScriptInit", init );
+
+function customEventFnc( total )
+{
+	// This would output "Total Is: 53"
+	log( "Total is: " + total );
+}
+addEventHandler ( "customEvent", customEventFnc );
+```
+---
+### createBlip
+This function is used to create a blip on the mini-map.
+
+#### Syntax
+```js
+createBlip(float x, float y, int library, int icon)
+```
+
+#### Arguments
+- **float x**: The X position of the blip
+- **float y**: The Y position of the blip
+- **int library**: The ID of the icon's library
+- **int icon**: The ID of the icon
+
+#### Return Values
+- **int** - The created blipid
+
+#### Example
+```js
+//SERVER
+function init()
+{
+	createBlip( -300.0, 120.0, 0, 1 );
+}
+addEventHandler( "onScriptInit", init );
+```
+---
+### destroyBlip
+This function is used to destroy a blip.
+
+#### Syntax
+```js
+destroyBlip(int blipid)
+```
+
+#### Arguments
+- **int blipid**: The ID of the blip you want to destroy
+
+#### Return Values
+- **true** - Successfully
+- **false** - Incorrect
+
+#### Example
+```js
+//SERVER
+function init()
+{
+	local blipid = createBlip( -300.0, 120.0, 0, 1 );
+	destroyBlip(blipid)
+}
+addEventHandler( "onScriptInit", init );
+```
+---
 ### attachBlipToPed
 This function is used to attach a blip to a ped.
 
@@ -164,40 +251,6 @@ function ( playerid )
 });
 ```
 ---
-### callEvent
-This function is used to call an event created by addEventHandler
-
-#### Syntax
-```js
-callEvent(string event, ...)
-```
-
-#### Arguments
-- **string event**: The event name
-- **...** : (Optional) Arguments to pass onto the event
-
-#### Return Values
-- **true** - Successfully
-- **false** - Incorrect
-
-#### Example
-```js
-//SERVER
-function init()
-{
-	// Call customEvent and pass 53 as an argument
-	callEvent("customEvent", 53);
-}
-addEventHandler( "onScriptInit", init );
-
-function customEventFnc( total )
-{
-	// This would output "Total Is: 53"
-	log( "Total is: " + total );
-}
-addEventHandler ( "customEvent", customEventFnc );
-```
----
 ### clamp
 This function is used to clamp a value between a minimum float and maximum float value.
 
@@ -225,33 +278,6 @@ function init()
 addEventHandler( "onScriptInit", init );
 ```
 ---
-### createBlip
-This function is used to create a blip on the mini-map.
-
-#### Syntax
-```js
-createBlip(float x, float y, int library, int icon)
-```
-
-#### Arguments
-- **float x**: The X position of the blip
-- **float y**: The Y position of the blip
-- **int library**: The ID of the icon's library
-- **int icon**: The ID of the icon
-
-#### Return Values
-- **int** - The created blipid
-
-#### Example
-```js
-//SERVER
-function init()
-{
-	createBlip( -300.0, 120.0, 0, 1 );
-}
-addEventHandler( "onScriptInit", init );
-```
----
 ### date
 This function is used to return the current date.
 
@@ -272,59 +298,6 @@ function init()
 	log( currentDate["day"] + "," + currentDate["month"] + "," + currentDate["year"] + "," +currentDate["yearday"] );
 }
 addEventHandler( "onScriptInit", init );
-```
----
-### destroyBlip
-This function is used to destroy a blip.
-
-#### Syntax
-```js
-destroyBlip(int blipid)
-```
-
-#### Arguments
-- **int blipid**: The ID of the blip you want to destroy
-
-#### Return Values
-- **true** - Successfully
-- **false** - Incorrect
-
-#### Example
-```js
-//SERVER
-function init()
-{
-	local blipid = createBlip( -300.0, 120.0, 0, 1 );
-	destroyBlip(blipid)
-}
-addEventHandler( "onScriptInit", init );
-```
----
-### explodeVehicle
-This function is used to explode vehicle.
-
-#### Syntax
-```js
-explodeVehicle(int vehicleid)
-```
-
-#### Arguments
-- **int vehicleid**: The ID of the vehicle
-
-#### Return Values
-- **true** - Successfully
-- **false** - Incorrect
-
-#### Example
-```js
-//SERVER
-addCommandHandler( "run",
-function( playerid )
-{
-	local myPos = getPlayerPosition(playerid)
-	local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
-	explodeVehicle( vehicleid );
-});
 ```
 ---
 ### fromRGB
@@ -411,5 +384,32 @@ function( playerid )
 	local myPos = getPlayerPosition(playerid)
 	local dis = getDistanceBetweenPoints3D( 400.0, 200.0, -14.0, myPos[0], myPos[1], myPos[2] );
 	sendPlayerMessage( playerid, "Distance between points: " + dis + "." );
+});
+```
+---
+### explodeVehicle
+This function is used to explode vehicle.
+
+#### Syntax
+```js
+explodeVehicle(int vehicleid)
+```
+
+#### Arguments
+- **int vehicleid**: The ID of the vehicle
+
+#### Return Values
+- **true** - Successfully
+- **false** - Incorrect
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local myPos = getPlayerPosition(playerid)
+	local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
+	explodeVehicle( vehicleid );
 });
 ```

@@ -39,7 +39,7 @@ This function is used to destroy (remove) a created vehicle.
 
 #### Syntax
 ```js
-destroyVehicle((int vehicleid)
+destroyVehicle(int vehicleid)
 ```
 
 #### Arguments
