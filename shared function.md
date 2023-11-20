@@ -27,7 +27,7 @@ addCommandHandler(string command, function)
 #### Example
 ```js
 //SERVER
-addCommandHandler( "heal",
+addCommandHandler( "run",
 function( playerid )
 {
     setPlayerHealth( playerid, 720.0 );
