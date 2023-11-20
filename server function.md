@@ -1,4 +1,6 @@
+### Vehicle functions
 - [createVehicle](#createVehicle)
+- [destroyVehicle](#destroyVehicle)
 ---
 
 ### createVehicle
@@ -27,7 +29,34 @@ createVehicle(int model, float x, float y, float z, float rx, float ry, float rz
 addCommandHandler( "run",
 function( playerid )
 {
-    local myPos = getPlayerPosition(playerid)
-    local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
+	local myPos = getPlayerPosition(playerid)
+	local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
+});
+```
+---
+### destroyVehicle
+This function is used to destroy (remove) a created vehicle.
+
+#### Syntax
+```js
+destroyVehicle((int vehicleid)
+```
+
+#### Arguments
+- **int vehicleid**: The vehicleid to destroy
+
+#### Return Values
+- **true** - Successfully
+- **false** - Incorrect
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local myPos = getPlayerPosition(playerid)
+	local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
+	destroyVehicle( vehicleid );
 });
 ```
