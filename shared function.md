@@ -1,28 +1,36 @@
 ### Command Functions
 - [addCommandHandler](#addCommandHandler)
 
-### Event functions
+### Event Functions
 - [addEventHandler](#addEventHandler)
 - [callEvent](#callEvent)
 
-### Blip functions
+### Blip Functions
 - [createBlip](#createBlip)
 - [destroyBlip](#destroyBlip)
 - [attachBlipToPed](#attachBlipToPed)
 - [attachBlipToPlayer](#attachBlipToPlayer)
 - [attachBlipToVehicle](#attachBlipToVehicle)
 
-### Util functions
+### Util Functions
 - [clamp](#clamp)
-- [date](#date)
 - [fromRGB](#fromRGB)
 
 ### Area Functions
 - [getDistanceBetweenPoints2D](#getDistanceBetweenPoints2D)
 - [getDistanceBetweenPoints3D](#getDistanceBetweenPoints3D)
 
-### Vehicle functions
+### Vehicle Functions
 - [explodeVehicle](#explodeVehicle)
+- [getIndicatorLightState](#getIndicatorLightState)
+
+### Script Functions
+- [date](#date)
+- [getMaxPlayers](#getMaxPlayers)
+- [getPlayerCount](#getPlayerCount)
+
+### Player Functions
+- [getPlayerHealth](#getPlayerHealth)
 ---
 
 ### addCommandHandler
@@ -411,5 +419,102 @@ function( playerid )
 	local myPos = getPlayerPosition(playerid)
 	local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
 	explodeVehicle( vehicleid );
+});
+```
+---
+### getIndicatorLightState
+This function can be used to get vehicle indicator lights state.
+
+#### Syntax
+```js
+getIndicatorLightState(int vehicleid, int indicatorSide)
+```
+
+#### Arguments
+- **int vehicleid**: The ID of the vehicle
+- **int indicatorSide**: side of the indicator, possible values: INDICATOR_LEFT, INDICATOR_RIGHT
+
+#### Return Values
+Boolean result of getting vehicle indicator lights state (true/false)
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local myPos = getPlayerPosition(playerid)
+	local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
+	local prevState = getIndicatorLightState(vehicleid, INDICATOR_LEFT);
+	sendPlayerMessage( playerid, "getIndicatorLightState: " + prevState + "." );
+});
+```
+---
+### getMaxPlayers
+This function is used to return the maximum amount of slots in the server.
+
+#### Syntax
+```js
+getMaxPlayers()
+```
+
+#### Return Values
+- **int**: The maximum player slots
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local value = getMaxPlayers()
+	sendPlayerMessage( playerid, "getMaxPlayers: " + value + "." );
+});
+```
+---
+### getPlayerCount
+This function is used to return the current amount of players in the server.
+
+#### Syntax
+```js
+getPlayerCount()
+```
+
+#### Return Values
+- **int**: Number of players
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local value = getPlayerCount()
+	sendPlayerMessage( playerid, "getPlayerCount: " + value + "." );
+});
+```
+---
+### getPlayerHealth
+This function is used to return the players health.
+
+#### Syntax
+```js
+getPlayerHealth(int playerid)
+```
+
+#### Arguments
+- **int playerid**: The ID of the player
+
+#### Return Values
+- **float**: The amount of health
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local value = getPlayerHealth(playerid)
+	sendPlayerMessage( playerid, "getPlayerHealth: " + value + "." );
 });
 ```

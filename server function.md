@@ -1,4 +1,4 @@
-### Vehicle functions
+### Vehicle Functions
 - [createVehicle](#createVehicle)
 - [destroyVehicle](#destroyVehicle)
 ---
