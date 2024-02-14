@@ -1,3 +1,6 @@
+### Script Functions
+- [log](#log)
+
 ### Command Functions
 - [addCommandHandler](#addCommandHandler)
 
@@ -33,6 +36,30 @@
 - [getPlayerHealth](#getPlayerHealth)
 ---
 
+### log
+This outputs a line of text to the server's log. This could be useful for debugging.
+
+#### Syntax
+```js
+log(string text)
+```
+
+#### Arguments
+- **string text**: The text to be output to the log.
+
+#### Return Values
+Returns 'true' if successful, 'false' otherwise.
+
+#### Example
+```js
+//SERVER
+addEventHandler( "onScriptInit",
+function()
+{
+	log("server started");
+});
+```
+---
 ### addCommandHandler
 This function is used to add a command handler.
 
@@ -46,8 +73,7 @@ addCommandHandler(string command, function)
 - **function**: The function to call when the command is typed
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
@@ -72,8 +98,7 @@ addEventHandler(string event, function)
 - **function**: The function which will be called when the event is triggered
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
@@ -99,8 +124,7 @@ callEvent(string event, ...)
 - **...** : (Optional) Arguments to pass onto the event
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
@@ -159,8 +183,7 @@ destroyBlip(int blipid)
 - **int blipid**: The ID of the blip you want to destroy
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
@@ -186,8 +209,7 @@ attachBlipToPed(int blipid, int pedid)
 - **int pedid**: The ID of the ped
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
@@ -215,8 +237,7 @@ attachBlipToPlayer(int blipid, int playerid)
 - **int playerid**: The ID of the player
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
@@ -243,8 +264,7 @@ attachBlipToVehicle(int blipid, int vehicleid)
 - **int vehicleid**: The ID of the vehicle
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
@@ -407,8 +427,7 @@ explodeVehicle(int vehicleid)
 - **int vehicleid**: The ID of the vehicle
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js

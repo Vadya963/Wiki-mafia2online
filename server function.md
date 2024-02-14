@@ -46,8 +46,7 @@ destroyVehicle(int vehicleid)
 - **int vehicleid**: The vehicleid to destroy
 
 #### Return Values
-- **true** - Successfully
-- **false** - Incorrect
+Returns 'true' if successful, 'false' otherwise.
 
 #### Example
 ```js
