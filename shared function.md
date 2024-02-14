@@ -1,5 +1,8 @@
 ### Script Functions
 - [log](#log)
+- [date](#date)
+- [getMaxPlayers](#getMaxPlayers)
+- [getPlayerCount](#getPlayerCount)
 
 ### Command Functions
 - [addCommandHandler](#addCommandHandler)
@@ -27,11 +30,6 @@
 - [explodeVehicle](#explodeVehicle)
 - [getIndicatorLightState](#getIndicatorLightState)
 
-### Script Functions
-- [date](#date)
-- [getMaxPlayers](#getMaxPlayers)
-- [getPlayerCount](#getPlayerCount)
-
 ### Player Functions
 - [getPlayerHealth](#getPlayerHealth)
 ---
@@ -57,6 +55,72 @@ addEventHandler( "onScriptInit",
 function()
 {
 	log("server started");
+});
+```
+---
+### date
+This function is used to return the current date.
+
+#### Syntax
+```js
+date()
+```
+
+#### Return Values
+- **table** -  day, month, year and yearday
+
+#### Example
+```js
+//SERVER
+function init()
+{
+	local currentDate = date();
+	log( currentDate["day"] + "," + currentDate["month"] + "," + currentDate["year"] + "," +currentDate["yearday"] );
+}
+addEventHandler( "onScriptInit", init );
+```
+---
+### getMaxPlayers
+This function is used to return the maximum amount of slots in the server.
+
+#### Syntax
+```js
+getMaxPlayers()
+```
+
+#### Return Values
+- **int**: The maximum player slots
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local value = getMaxPlayers()
+	sendPlayerMessage( playerid, "getMaxPlayers: " + value + "." );
+});
+```
+---
+### getPlayerCount
+This function is used to return the current amount of players in the server.
+
+#### Syntax
+```js
+getPlayerCount()
+```
+
+#### Return Values
+- **int**: Number of players
+
+#### Example
+```js
+//SERVER
+addCommandHandler( "run",
+function( playerid )
+{
+	local value = getPlayerCount()
+	sendPlayerMessage( playerid, "getPlayerCount: " + value + "." );
 });
 ```
 ---
@@ -306,28 +370,6 @@ function init()
 addEventHandler( "onScriptInit", init );
 ```
 ---
-### date
-This function is used to return the current date.
-
-#### Syntax
-```js
-date()
-```
-
-#### Return Values
-- **table** -  day, month, year and yearday
-
-#### Example
-```js
-//SERVER
-function init()
-{
-	local currentDate = date();
-	log( currentDate["day"] + "," + currentDate["month"] + "," + currentDate["year"] + "," +currentDate["yearday"] );
-}
-addEventHandler( "onScriptInit", init );
-```
----
 ### fromRGB
 This function is used to convert a RGB(A) colour.
 
@@ -466,50 +508,6 @@ function( playerid )
 	local vehicleid = createVehicle( 0, myPos[0], myPos[1], myPos[2], 0.0, 0.0, 0.0 );
 	local prevState = getIndicatorLightState(vehicleid, INDICATOR_LEFT);
 	sendPlayerMessage( playerid, "getIndicatorLightState: " + prevState + "." );
-});
-```
----
-### getMaxPlayers
-This function is used to return the maximum amount of slots in the server.
-
-#### Syntax
-```js
-getMaxPlayers()
-```
-
-#### Return Values
-- **int**: The maximum player slots
-
-#### Example
-```js
-//SERVER
-addCommandHandler( "run",
-function( playerid )
-{
-	local value = getMaxPlayers()
-	sendPlayerMessage( playerid, "getMaxPlayers: " + value + "." );
-});
-```
----
-### getPlayerCount
-This function is used to return the current amount of players in the server.
-
-#### Syntax
-```js
-getPlayerCount()
-```
-
-#### Return Values
-- **int**: Number of players
-
-#### Example
-```js
-//SERVER
-addCommandHandler( "run",
-function( playerid )
-{
-	local value = getPlayerCount()
-	sendPlayerMessage( playerid, "getPlayerCount: " + value + "." );
 });
 ```
 ---
