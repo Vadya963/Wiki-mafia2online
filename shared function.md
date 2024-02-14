@@ -3,6 +3,7 @@
 - [date](#date)
 - [getMaxPlayers](#getMaxPlayers)
 - [getPlayerCount](#getPlayerCount)
+- [getTickCount](#getTickCount)
 
 ### Command Functions
 - [addCommandHandler](#addCommandHandler)
@@ -121,6 +122,27 @@ function( playerid )
 {
 	local value = getPlayerCount()
 	sendPlayerMessage( playerid, "getPlayerCount: " + value + "." );
+});
+```
+---
+### getTickCount
+This function returns amount of time that your system has been running in milliseconds. By comparing two values of getTickCount, you can determine how much time has passed (in milliseconds) between two events. This could be used to determine how efficient your code is, or to time how long a player takes to complete a task.
+
+#### Syntax
+```js
+getTickCount()
+```
+
+#### Return Values
+- **int**: Returns an integer containing the number of milliseconds since the system the server is running on started.
+
+#### Example
+```js
+//SERVER
+addEventHandler( "onScriptInit",
+function()
+{
+	log("Tick Count: " + getTickCount());
 });
 ```
 ---
