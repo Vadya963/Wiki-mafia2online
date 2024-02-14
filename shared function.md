@@ -4,6 +4,9 @@
 - [getMaxPlayers](#getMaxPlayers)
 - [getPlayerCount](#getPlayerCount)
 - [getTickCount](#getTickCount)
+- [getServerName](#getServerName)
+- [getPlayers](#getPlayers)
+- [getVehicles](#getVehicles)
 
 ### Command Functions
 - [addCommandHandler](#addCommandHandler)
@@ -144,6 +147,74 @@ function()
 {
 	log("Tick Count: " + getTickCount());
 });
+```
+---
+### getServerName
+This function is used to return the name of the server.
+
+#### Syntax
+```js
+getServerName()
+```
+
+#### Return Values
+- **string**: A string containing the server's name.
+
+#### Example
+```js
+//SERVER
+addEventHandler( "onScriptInit",
+function()
+{
+	log(getServerName());
+});
+```
+---
+### getPlayers
+This function is used to retrieve table (playerid : playerName) of all current connected players.
+
+#### Syntax
+```js
+getPlayers()
+```
+
+#### Return Values
+- **table**: Table with all currently connected players. For each table entry 'key' is an playerId and 'value' is an player name.
+
+#### Example
+```js
+//SERVER
+addEventHandler("onPlayerDisconnected", function(playerid, reason) {
+	local players = getPlayers();
+	local list = "";
+	foreach (idx, name in players) {
+		list += ", " + name;
+	}
+	sendPlayerMessageToAll("Still active players: " + list);
+});
+
+```
+---
+### getVehicles
+This function is used to retrieve array of all created vehicle ids.
+
+#### Syntax
+```js
+getVehicles()
+```
+
+#### Return Values
+- **array**: Array of all created vehicle ids.
+
+#### Example
+```js
+//SERVER
+addEventHandler("onScriptExit", function() {
+	local vehicles = getVehicles();
+	// call destoryVehicle for every id in array
+	vehicles.apply(destroyVehicle);
+});
+
 ```
 ---
 ### addCommandHandler
