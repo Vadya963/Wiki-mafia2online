@@ -14,6 +14,7 @@
 ### Event Functions
 - [addEventHandler](#addEventHandler)
 - [callEvent](#callEvent)
+- [removeEventHandler](#removeEventHandler)
 
 ### Blip Functions
 - [createBlip](#createBlip)
@@ -286,19 +287,51 @@ Returns 'true' if successful, 'false' otherwise.
 #### Example
 ```js
 //SERVER
-function init()
-{
-	// Call customEvent and pass 53 as an argument
-	callEvent("customEvent", 53);
-}
-addEventHandler( "onScriptInit", init );
-
 function customEventFnc( total )
 {
 	// This would output "Total Is: 53"
 	log( "Total is: " + total );
 }
 addEventHandler ( "customEvent", customEventFnc );
+
+function init()
+{
+	// Call customEvent and pass 53 as an argument
+	callEvent("customEvent", 53);
+}
+addEventHandler( "onScriptInit", init );
+```
+---
+### removeEventHandler
+This function is used to remove a function event handler
+
+#### Syntax
+```js
+removeEventHandler(string event, function)
+```
+
+#### Arguments
+- **string event**: The name of the event to be removed
+- **function** : The function linked to the event
+
+#### Return Values
+Returns 'true' if successful, 'false' otherwise.
+
+#### Example
+```js
+//SERVER
+function customEventFnc( total )
+{
+	// This would output "Total Is: 53"
+	log( "Total is: " + total );
+}
+addEventHandler ( "customEvent", customEventFnc );
+
+function init()
+{
+	removeEventHandler("customEvent", customEventFnc);
+}
+addEventHandler( "onScriptInit", init );
 ```
 ---
 ### createBlip
