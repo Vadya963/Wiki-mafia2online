@@ -312,7 +312,7 @@ removeEventHandler(string event, function)
 
 #### Arguments
 - **string event**: The name of the event to be removed
-- **function** : The function linked to the event
+- **function**: The function linked to the event
 
 #### Return Values
 Returns 'true' if successful, 'false' otherwise.
