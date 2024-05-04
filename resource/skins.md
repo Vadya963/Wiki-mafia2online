@@ -1,1 +1,3 @@
-all skins are available via the link https://youtu.be/F_OGRFpamD0
+| ID | Picture |
+|:-------:|:----------:|
+| 0 | ![alt text](skins/0.png) |
