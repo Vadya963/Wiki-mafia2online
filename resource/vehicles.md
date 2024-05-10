@@ -60,4 +60,8 @@
 | 57 | Roller GL300 | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823520160433062/3DFBD88EDA9D59439202D12F3928E6521DDD28BB/) |
 | 58 | Potomac Elysium | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1029581453637101185/29E648C128D6C291877B11FD7A369A2EF65A5098/) |
 | 59 | Forklift truck | ![alt text](https://i.playground.ru/e/pY-xOBQszSHGgzWn3jm-xw.jpeg) |
-| 60 | Smith Coupe Wreck(broken copy) | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313614333/588670A078893BC703C92106D5C40DB3284F3051/) |
+| 60 | Samson Drifter | ![alt text](https://static.wikia.nocookie.net/mafiagame/images/4/4f/Samson_Drifter_%28Mafia_II%29.jpg/revision/latest?cb=20200523082224) |
+| 61 | Shubert Pickup | ![alt text](https://i.playground.ru/p/pEHloEUCEApTe8cBPNvDjg.jpeg) |
+| 62 | Shubert Series AB | ![alt text](https://i.playground.ru/p/GPxV_7BXO3hR7_8fEdwU9w.jpeg) |
+| 63 | Cossack | ![alt text](https://i.playground.ru/p/hfuxYX33tqhp0F4hWG5-_g.jpeg) |
+| 64 | Smith Coupe Wreck(broken copy) | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313614333/588670A078893BC703C92106D5C40DB3284F3051/) |
