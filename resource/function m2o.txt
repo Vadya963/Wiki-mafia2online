@@ -1,5 +1,5 @@
-Поиск "pScriptingManager->RegisterFunction" (найдено 265 совпадений в 21 файлах из 9946)
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Client\C3DTextLabelNatives.cpp (совпадений: 8)
+Поиск "pScriptingManager->RegisterFunction" (найдено 276 совпадений в 22 файлах из 9414) [Обычный]
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\C3DTextLabelNatives.cpp (совпадений: 8)
 	Строка  25: 	pScriptingManager->RegisterFunction("create3DTextLabel", Create3DTextLabel, 6, "fffsif");
 	Строка  26: 	pScriptingManager->RegisterFunction("remove3DTextLabel", Remove3DTextLabel, 1, "i");
 	Строка  27: 	pScriptingManager->RegisterFunction("count3DTextLabels", GetCount, 0, NULL);
@@ -8,16 +8,16 @@
 	Строка  30: 	pScriptingManager->RegisterFunction("set3DTextLabelColor", SetColor, 2, "ii");
 	Строка  31: 	pScriptingManager->RegisterFunction("set3DTextLabelPosition", SetPosition, 4, "ifff");
 	Строка  32: 	pScriptingManager->RegisterFunction("set3DTextLabelActive", SetActive, 2, "ib");
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Client\CCameraNatives.cpp (совпадений: 3)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CCameraNatives.cpp (совпадений: 3)
 	Строка 24: 	pScriptingManager->RegisterFunction( "getCameraPosition", GetPosition, 0, NULL );
 	Строка 25: 	pScriptingManager->RegisterFunction( "getCameraRotation", GetRotation, 0, NULL );
 	Строка 26: 	pScriptingManager->RegisterFunction( "simpleShake", SimpleShake, 3, "fff");
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Client\CClientNatives.cpp (совпадений: 4)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CClientNatives.cpp (совпадений: 4)
 	Строка  31: 	pScriptingManager->RegisterFunction( "triggerServerEvent", TriggerServerEvent, -1, NULL );
 	Строка  34: 	pScriptingManager->RegisterFunction( "bindKey", BindKey, 3, "ssc" );
 	Строка  35: 	pScriptingManager->RegisterFunction( "unbindKey", UnbindKey, 2, "ss" );
 	Строка  36: 	pScriptingManager->RegisterFunction( "isKeyBound", IsKeyBound, 2, "ss" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Client\CGameNatives.cpp (совпадений: 18)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGameNatives.cpp (совпадений: 19)
 	Строка  25: 	pScriptingManager->RegisterFunction( "setWeather", SetWeather, 1, "s" );
 	Строка  26: 	pScriptingManager->RegisterFunction( "getWeather", GetWeather, 0, NULL );
 	Строка  27: 	pScriptingManager->RegisterFunction( "toggleHud", ToggleHud, 1, "b" );
@@ -32,11 +32,12 @@
 	Строка  36: 	pScriptingManager->RegisterFunction( "destroyHudTimer", DestroyHudTimer, 0, NULL );
 	Строка  37: 	pScriptingManager->RegisterFunction( "openMap", OpenMap, 0, NULL );
 	Строка  38: 	pScriptingManager->RegisterFunction( "isMapOpen", IsMapOpen, 0, NULL );
-	Строка  39: 	pScriptingManager->RegisterFunction( "setGPSTarget", SetGPSTarget, 2, "ff" );
+	Строка  39: 	pScriptingManager->RegisterFunction( "setGPSTarget", SetGPSTarget, 3, "ffs" );
 	Строка  40: 	pScriptingManager->RegisterFunction( "removeGPSTarget", RemoveGPSTarget, 0, NULL );
 	Строка  41: 	pScriptingManager->RegisterFunction( "disableTranslocator", DisableTranslocator, 1, "b" );
 	Строка  42: 	pScriptingManager->RegisterFunction( "executeLuaHandler", ExecuteLuaHandler, 1, "s" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Client\CGraphicsNatives.cpp (совпадений: 9)
+	Строка  43: 	pScriptingManager->RegisterFunction( "showHint", ShowHint, 4, "iisf" );
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGraphicsNatives.cpp (совпадений: 9)
 	Строка  28: 	pScriptingManager->RegisterFunction( "getFPS", GetFPS, 0, NULL );
 	Строка  29: 	pScriptingManager->RegisterFunction( "getScreenSize", GetScreenSize, 0, NULL );
 	Строка  30: 	pScriptingManager->RegisterFunction( "getMousePosition", GetMousePosition, 0, NULL );
@@ -46,7 +47,7 @@
 	Строка  34: 	pScriptingManager->RegisterFunction( "isChatVisible", IsChatVisible, 0, NULL );
 	Строка  35: 	pScriptingManager->RegisterFunction( "isInputVisible", IsInputVisible, 0, NULL );
 	Строка  36: 	pScriptingManager->RegisterFunction( "sendMessage", SendMessage, -1, NULL );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Client\CGUINatives.cpp (совпадений: 33)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGUINatives.cpp (совпадений: 34)
 	Строка  52: 	pScriptingManager->RegisterFunction( "dxCreateFont", NewFont, 3, "sib" );
 	Строка  53: 	pScriptingManager->RegisterFunction( "dxDrawText", DrawText, -1, NULL );
 	Строка  54: 	pScriptingManager->RegisterFunction( "dxDrawRectangle", DrawRectangle, 5, "ffffi" );
@@ -77,10 +78,11 @@
 	Строка  81: 	pScriptingManager->RegisterFunction( "guiIsAlwaysOnTop", GuiIsAlwaysOnTop, 1, "p" );
 	Строка  82: 	pScriptingManager->RegisterFunction( "guiSetInputMasked", GuiSetInputMasked, 2, "pb" );
 	Строка  83: 	pScriptingManager->RegisterFunction( "guiIsInputMasked", GuiIsInputMasked, 1, "p" );
-	Строка  84: 	pScriptingManager->RegisterFunction( "guiChangeImage", GuiChangeImage, 2, "ps");
-	Строка  85: 	pScriptingManager->RegisterFunction( "guiSetSizable", GuiSetSizable, 2, "pb");
-	Строка  86: 	pScriptingManager->RegisterFunction( "guiSetMovable", GuiSetMovable, 2, "pb");
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Client\CPlayerNatives.cpp (совпадений: 30)
+	Строка  84: 	pScriptingManager->RegisterFunction( "guiChangeImage", GuiChangeImage, 2, "ps" );
+	Строка  85: 	pScriptingManager->RegisterFunction( "guiSetSizable", GuiSetSizable, 2, "pb" );
+	Строка  86: 	pScriptingManager->RegisterFunction( "guiSetMovable", GuiSetMovable, 2, "pb" );
+	Строка  87: 	pScriptingManager->RegisterFunction( "getFilePath", GetFilePath, 1, "s" );
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CPlayerNatives.cpp (совпадений: 32)
 	Строка  38: 	pScriptingManager->RegisterFunction( "getLocalPlayer", GetLocalPlayer, 0, NULL );
 	Строка  39: 	pScriptingManager->RegisterFunction( "getPlayerName", GetName, 1, "i" );
 	Строка  40: 	pScriptingManager->RegisterFunction( "setPlayerName", SetName, 2, "is" );
@@ -109,16 +111,18 @@
 	Строка  63: 	pScriptingManager->RegisterFunction( "givePlayerMoney", GiveMoney, 2, "ii" );
 	Строка  64: 	pScriptingManager->RegisterFunction( "takePlayerMoney", TakeMoney, 2, "ii" );
 	Строка  65: 	pScriptingManager->RegisterFunction( "getPlayerMoney", GetMoney, 1, "i" );
-	Строка  68: 	pScriptingManager->RegisterFunction("setRenderNametags", SetRenderNametags, 1, "b");
-	Строка  69: 	pScriptingManager->RegisterFunction("setRenderHealthbar", SetRenderHealthbar, 1, "b");
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Server\CBanNatives.cpp (совпадений: 4)
+	Строка  66: 	pScriptingManager->RegisterFunction( "getPlayerGUID", getGUID, 1, "i" );
+	Строка  67: 	pScriptingManager->RegisterFunction( "reloadPlayerWeapon", ReloadWeapon, 1, "i" );
+	Строка  70: 	pScriptingManager->RegisterFunction("setRenderNametags", SetRenderNametags, 1, "b");
+	Строка  71: 	pScriptingManager->RegisterFunction("setRenderHealthbar", SetRenderHealthbar, 1, "b");
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CBanNatives.cpp (совпадений: 4)
 	Строка  15: 	pScriptingManager->RegisterFunction( "banPlayer", BanPlayer, 4, "iiis" );
 	Строка  16: 	pScriptingManager->RegisterFunction( "banSerial", BanSerial, 4, "siis" );
 	Строка  17: 	pScriptingManager->RegisterFunction( "unbanSerial", UnbanSerial, 1, "s" );
 	Строка  18: 	pScriptingManager->RegisterFunction( "isSerialBanned", IsSerialBanned, 1, "s" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Server\CHttpNatives.cpp (совпадений: 1)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CHttpNatives.cpp (совпадений: 1)
 	Строка 15: 	pScriptingManager->RegisterFunction( "webRequest", WebRequest, -1, NULL );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Server\CPlayerNatives.cpp (совпадений: 43)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CPlayerNatives.cpp (совпадений: 43)
 	Строка   15: 	pScriptingManager->RegisterFunction( "isPlayerConnected", IsConnected, 1, "i" );
 	Строка   16: 	pScriptingManager->RegisterFunction( "isPlayerSpawned", IsSpawned, 1, "i" );
 	Строка   17: 	pScriptingManager->RegisterFunction( "getPlayerName", GetName, 1, "i" );
@@ -162,7 +166,7 @@
 	Строка   55: 	pScriptingManager->RegisterFunction( "respawnPlayer", RespawnPlayer, 1, "i" );
 	Строка   56: 	pScriptingManager->RegisterFunction( "setPlayerAnimStyle", SetAnimStyle, 3, "iss");
 	Строка   57: 	pScriptingManager->RegisterFunction( "setPlayerHandModel", SetHandModel, 3, "iii");
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Server\CServerNatives.cpp (совпадений: 13)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CServerNatives.cpp (совпадений: 13)
 	Строка  16: 	pScriptingManager->RegisterFunction( "setGameModeText", SetGameModeText, 1, "s" );
 	Строка  17: 	pScriptingManager->RegisterFunction( "setMapName", SetMapName, 1, "s" );
 	Строка  18: 	pScriptingManager->RegisterFunction( "setWeather", SetWeather, 1, "s" );
@@ -176,13 +180,13 @@
 	Строка  26: 	pScriptingManager->RegisterFunction( "stopResource", StopResource, 1, "s" );
 	Строка  27: 	pScriptingManager->RegisterFunction( "restartResource", RestartResource, 1, "s" );
 	Строка  28: 	pScriptingManager->RegisterFunction( "disableCityShops", DisableCityShops, 1, "b" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Server\CVehicleNatives.cpp (совпадений: 5)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CVehicleNatives.cpp (совпадений: 5)
 	Строка  15: 	pScriptingManager->RegisterFunction( "createVehicle", Create, 7, "iffffff" );
 	Строка  16: 	pScriptingManager->RegisterFunction( "destroyVehicle", Destroy, 1, "i" );
 	Строка  18: 	pScriptingManager->RegisterFunction( "setVehicleRespawnTime", SetRespawnTime, 2, "ii" );
 	Строка  19: 	pScriptingManager->RegisterFunction( "getVehicleRespawnTime", GetRespawnTime, 1, "i" );
 	Строка  21: 	pScriptingManager->RegisterFunction( "respawnVehicle", RespawnVehicle, 1, "i" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CAreaNatives.cpp (совпадений: 7)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CAreaNatives.cpp (совпадений: 7)
 	Строка  21: 	pScriptingManager->RegisterFunction( "getDistanceBetweenPoints3D", DistanceBetweenPoints3D, 6, "ffffff" );
 	Строка  22: 	pScriptingManager->RegisterFunction( "getDistanceBetweenPoints2D", DistanceBetweenPoints2D, 4, "ffff" );
 	Строка  23: 	pScriptingManager->RegisterFunction( "isPointInArea3D", PointInArea3D, 9, "fffffffff" );
@@ -190,22 +194,22 @@
 	Строка  25: 	pScriptingManager->RegisterFunction( "isPointInCircle3D", PointInCircle3D, 7, "fffffff" );
 	Строка  26: 	pScriptingManager->RegisterFunction( "isPointInCircle2D", PointInCircle2D, 5, "fffff" );
 	Строка  27: 	pScriptingManager->RegisterFunction( "isPointInTube", PointInTube, 8, "ffffffff" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CBlipNatives.cpp (совпадений: 5)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CBlipNatives.cpp (совпадений: 5)
 	Строка  31: 	pScriptingManager->RegisterFunction( "createBlip", Create, 4, "ffii" );
 	Строка  32: 	pScriptingManager->RegisterFunction( "destroyBlip", Destroy, 1, "i" );
 	Строка  33: 	pScriptingManager->RegisterFunction( "attachBlipToPlayer", AttachToPlayer, 2, "ii" );
 	Строка  34: 	pScriptingManager->RegisterFunction( "attachBlipToVehicle", AttachToVehicle, 2, "ii" );
 	Строка  35: 	pScriptingManager->RegisterFunction( "attachBlipToPed", AttachToPed, 2, "ii" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CEventNatives.cpp (совпадений: 4)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CEventNatives.cpp (совпадений: 4)
 	Строка  27: 	pScriptingManager->RegisterFunction( "addEventHandler", AddEvent, -1, NULL );
 	Строка  28: 	pScriptingManager->RegisterFunction( "callEvent", CallEvent, -1, NULL );
 	Строка  29: 	pScriptingManager->RegisterFunction( "removeEventHandler", RemoveEvent, -2, "sc" );
 	Строка  31: 	pScriptingManager->RegisterFunction( "addCommandHandler", AddCommand, -1, NULL );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CHashNatives.cpp (совпадений: 3)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CHashNatives.cpp (совпадений: 3)
 	Строка 19: 	pScriptingManager->RegisterFunction( "md5", md5_string, 1, "s" );
 	Строка 20: 	pScriptingManager->RegisterFunction( "md5_file", md5_file, 1, "s" );
 	Строка 21: 	pScriptingManager->RegisterFunction( "crc32", crc32, 1, "s" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CPedNatives.cpp (совпадений: 11)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CPedNatives.cpp (совпадений: 16)
 	Строка  28: 	pScriptingManager->RegisterFunction( "createPed", CreatePed, 7, "iffffff" );
 	Строка  29: 	pScriptingManager->RegisterFunction( "destroyPed", DestroyPed, 1, "i" );
 	Строка  30: 	pScriptingManager->RegisterFunction( "setPedName", SetPedName, 2, "is" );
@@ -217,9 +221,14 @@
 	Строка  36: 	pScriptingManager->RegisterFunction( "setPedPosition", SetPedPosition, 4, "ifff" );
 	Строка  37: 	pScriptingManager->RegisterFunction( "getPedRotation", GetPedRotation, 1, "i" );
 	Строка  38: 	pScriptingManager->RegisterFunction( "setPedRotation", SetPedRotation, 4, "ifff" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CSharedPlayerNatives.cpp (совпадений: 1)
+	Строка  39: 	pScriptingManager->RegisterFunction( "pedMoveTo", PedMove, 5, "ifffi" );
+	Строка  40: 	pScriptingManager->RegisterFunction( "pedShootTo", PedShoot, 4, "ifff" );
+	Строка  41: 	pScriptingManager->RegisterFunction( "pedAimTo", PedAim, 4, "ifff" );
+	Строка  42: 	pScriptingManager->RegisterFunction( "givePedWeapon", GiveWeapon, 3, "iii" );
+	Строка  43: 	pScriptingManager->RegisterFunction( "setPedWeapon", SetWeapon, 2, "ii" );
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSharedPlayerNatives.cpp (совпадений: 1)
 	Строка 29: 	pScriptingManager->RegisterFunction( "getPlayers", GetPlayers, 0, NULL);
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CSharedVehicleNatives.cpp (совпадений: 46)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSharedVehicleNatives.cpp (совпадений: 47)
 	Строка   31: 	pScriptingManager->RegisterFunction( "setVehiclePosition", SetPosition, 4, "ifff" );
 	Строка   32: 	pScriptingManager->RegisterFunction( "getVehiclePosition", GetPosition, 1, "i" );
 	Строка   33: 	pScriptingManager->RegisterFunction( "setVehicleRotation", SetRotation, 4, "ifff" );
@@ -266,7 +275,8 @@
 	Строка   74: 	pScriptingManager->RegisterFunction( "setVehicleLocked", SetVehicleLocked, 2, "ib" );
 	Строка   75: 	pScriptingManager->RegisterFunction( "setVehicleEngineDamage", SetVehicleEngineDamage, 2, "if" );
 	Строка   76: 	pScriptingManager->RegisterFunction( "getVehicleEngineDamage", GetVehicleEngineDamage, 1, "i" );
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CSystemNatives.cpp (совпадений: 10)
+	Строка   77: 	pScriptingManager->RegisterFunction( "getVehicleGUID", GetVehicleGUID, 1, "i" );
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSystemNatives.cpp (совпадений: 10)
 	Строка  33: 	pScriptingManager->RegisterFunction( "log", Log, 1, "s" );
 	Строка  34: 	pScriptingManager->RegisterFunction( "time", Time, 0, NULL );
 	Строка  35: 	pScriptingManager->RegisterFunction( "getTickCount", TickCount, 0, NULL );
@@ -277,7 +287,7 @@
 	Строка  40: 	pScriptingManager->RegisterFunction( "strRand", StrRand, 1, "i");
 	Строка  41: 	pScriptingManager->RegisterFunction( "intConcat", IntConcat, 2, "ii");
 	Строка  42: 	pScriptingManager->RegisterFunction( "getDateTime", GetDateTime, 0, NULL);
-  C:\Users\Vadim\Documents\Visual Studio 2015\Projects\Mafia2-Online\Shared\Scripting\Natives\CUtilNatives.cpp (совпадений: 7)
+  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CUtilNatives.cpp (совпадений: 7)
 	Строка  35: 	pScriptingManager->RegisterFunction( "getPlayerIdFromName", PlayerIdFromName, 1, "s" );
 	Строка  36: 	pScriptingManager->RegisterFunction( "getWeaponNameFromId", WeaponNameFromId, 1, "i" );
 	Строка  37: 	pScriptingManager->RegisterFunction( "getWeaponIdFromName", WeaponIdFromName, 1, "s" );
