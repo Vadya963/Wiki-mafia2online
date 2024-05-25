@@ -1,3 +1,4 @@
+# SUMMER
 | Name | Game Time | Real Time | Period | Weather | Picture |
 |:----:|:---------:|:---------:|:------:|:-------:|:-------:|
 | DT_RTRclear_day_night | 0.000 | 0:00 | SUMMER | CLEAR | ![alt text](weather/summer/DT_RTRclear_day_night.png) |
@@ -63,3 +64,33 @@
 | DT14part11 | 0.9297211766243 | 22:27 | SUMMER | CLEAR | ![alt text](weather/summer/DT14part11.png) |
 | DT_RTRrainy_day_night | 0.94797676801682 | 22:53 | SUMMER | RAINING | ![alt text](weather/summer/DT_RTRrainy_day_night.png) |
 | DT11part05 | 0.97131484746933 | 23:28 | SUMMER | CLEAR | ![alt text](weather/summer/DT11part05.png) |
+| DT03part01JoesFlat | 0.47142365574837 | 11:23 | WINTER | CLEAR | ![alt text](weather/winter/DT03part01JoesFlat.png) |
+
+# WINTER
+| DT02part01Railwaystation | 0.5887006521225 | 14:13 | WINTER | CLEAR | ![alt text](weather/winter/DT02part01Railwaystation.png) |
+| DT02part02JoesFlat | 0.62701684236526 | 15:09 | WINTER | CLEAR | ![alt text](weather/winter/DT02part02JoesFlat.png) |
+| DT02part03Charlie | 0.65608328580856 | 15:51 | WINTER | FOGGY | ![alt text](weather/winter/DT02part03Charlie.png) |
+| DT02part04Giuseppe | 0.68752253055573 | 16:36 | WINTER | CLEAR | ![alt text](weather/winter/DT02part04Giuseppe.png) |
+| DT02NewStart1 | 0.76822125911713 | 18:34 | WINTER | CLEAR | ![alt text](weather/winter/DT02NewStart1.png) |
+| DT02NewStart2 | 0.77647906541824 | 18:45 | WINTER | CLEAR | ![alt text](weather/winter/DT02NewStart2.png) |
+| DT02part05Derek | 0.78132635354996 | 18:52 | WINTER | CLEAR | ![alt text](weather/winter/DT02part05Derek.png) |
+
+
+
+
+
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
+|  |  |  | WINTER |  | ![alt text](weather/winter/.png) |
