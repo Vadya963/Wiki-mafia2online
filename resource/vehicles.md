@@ -54,6 +54,10 @@
 | 51 | Culver Empire Police Special | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823454064522564/92D7CB28D8C8DDF2C8C31799BA58AF2D4DAC005F/) |
 | 52 | Walker Rocket | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823454064643367/E83D89F8B7005C2CCC5C3D4F8D643753BA75FCAB/) |
 | 53 | Walter Coupe | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823454064672385/1EA987B4FF47948BD7C6B3D0C42E18B84581BDD8/) |
+
+# New cars are available in RC5
+| ID | Model name | Picture |
+|:-------:|:-------:|:----------:|
 | 54 | Delizia GrandeAmerica | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1029581453637126454/9FB719EB623CD7D365BBC4524C56CC6EE7AC756F/) |
 | 55 | Chaffeque XT | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823520160293497/A96E86FA34D43FF1BACDAD333062331DFBE36A2B/) |
 | 56 | Waybar Hot Rod | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1029581453637215875/D922161C3CD5A810F08AD6B0945B65070073C978/) |

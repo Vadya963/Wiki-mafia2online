@@ -173,7 +173,7 @@
 | 170 | ![alt text](skins/170.png) |
 | 171 | ![alt text](skins/171.png) |
 
-# new skins available in RC5
+# New skins available in RC5
 | ID | Picture |
 |:-------:|:----------:|
 | 172 | ![alt text](skins/172.png) |
