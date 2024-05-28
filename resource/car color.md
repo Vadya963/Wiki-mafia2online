@@ -1,5 +1,48 @@
+| ID | Picture |
+|:-------:|:----------:|
+| 1 | ![alt text](car_colour/1.png) |
+| 2 | ![alt text](car_colour/2.png) |
+| 3 | ![alt text](car_colour/3.png) |
+| 4 | ![alt text](car_colour/4.png) |
+| 5 | ![alt text](car_colour/5.png) |
+| 6 | ![alt text](car_colour/6.png) |
+| 7 | ![alt text](car_colour/7.png) |
+| 8 | ![alt text](car_colour/8.png) |
+| 9 | ![alt text](car_colour/9.png) |
+| 10 | ![alt text](car_colour/10.png) |
+| 11 | ![alt text](car_colour/11.png) |
+| 12 | ![alt text](car_colour/12.png) |
+| 13 | ![alt text](car_colour/13.png) |
+| 14 | ![alt text](car_colour/14.png) |
+| 15 | ![alt text](car_colour/15.png) |
+| 16 | ![alt text](car_colour/16.png) |
+| 17 | ![alt text](car_colour/17.png) |
+| 18 | ![alt text](car_colour/18.png) |
+| 19 | ![alt text](car_colour/19.png) |
+| 20 | ![alt text](car_colour/20.png) |
+| 21 | ![alt text](car_colour/21.png) |
+| 22 | ![alt text](car_colour/22.png) |
+| 23 | ![alt text](car_colour/23.png) |
+| 24 | ![alt text](car_colour/24.png) |
+| 25 | ![alt text](car_colour/25.png) |
+| 26 | ![alt text](car_colour/26.png) |
+| 27 | ![alt text](car_colour/27.png) |
+| 28 | ![alt text](car_colour/28.png) |
+| 29 | ![alt text](car_colour/29.png) |
+| 30 | ![alt text](car_colour/30.png) |
+| 31 | ![alt text](car_colour/31.png) |
+| 32 | ![alt text](car_colour/32.png) |
+| 33 | ![alt text](car_colour/33.png) |
+| 34 | ![alt text](car_colour/34.png) |
+| 35 | ![alt text](car_colour/35.png) |
+| 36 | ![alt text](car_colour/36.png) |
+| 37 | ![alt text](car_colour/37.png) |
+| 38 | ![alt text](car_colour/38.png) |
+| 39 | ![alt text](car_colour/39.png) |
+| 40 | ![alt text](car_colour/40.png) |
+
 ```nut
-vehicle_colors = {
+local vehicle_colors = {
 	[1] = [154,154,154],
 	[2] = [143,137,124],
 	[3] = [112,104,89],
