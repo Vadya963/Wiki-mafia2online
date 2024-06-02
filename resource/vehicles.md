@@ -69,3 +69,4 @@
 | 62 | Shubert Series AB | ![alt text](https://i.playground.ru/p/GPxV_7BXO3hR7_8fEdwU9w.jpeg) |
 | 63 | Cossack | ![alt text](https://i.playground.ru/p/hfuxYX33tqhp0F4hWG5-_g.jpeg) |
 | 64 | Smith Coupe Wreck(broken copy) | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313614333/588670A078893BC703C92106D5C40DB3284F3051/) |
+| 65 | Cadillac Miller-Meteor Ambulance | ![alt text](https://imgur.com/a/g5QTjHh) |
