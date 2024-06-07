@@ -38,5 +38,43 @@ https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/e5b5864b-997f-4c8e
 
 https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/9a18b212-c7cf-4f99-ab4d-6f303ff81d1f
 
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/51af874a-cfd3-42b3-86e3-313f7460877e
 
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/dd5247b7-fa03-45b5-8259-640a701be864
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/5f1b69ff-fdaa-458b-a5dc-a24e6a5af036
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/1757e017-260e-4826-96de-3ef62a000599
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/875cc999-ac36-4de3-aae0-0bd5b231123b
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/da11a6c3-5bb0-46bf-bbdc-81f500bc7812
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/3e3c077f-b220-4a80-8a69-e126cc6c2a22
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/e8afa1f0-9d89-434d-a08a-7f8193589b05
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/54f10169-85a8-49f4-a27a-55e706791b0e
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/82c5697c-8f42-443a-8e19-a0b26105b34d
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/f5eaed22-5d64-48a4-943a-d1a26792165c
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/5a67cb54-c251-4664-af3b-b32edb129c90
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/815fe716-e8f6-4035-93f5-bf8831dbac31
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/180e9821-a5ff-4803-8c10-d855e5c55911
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/e16cc1bc-9860-4752-b040-ce357ca48bdb
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/b38f4311-144f-4a57-9738-1b930c06c032
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/0f3625d5-bf26-4ab2-846f-3da1712cb592
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/c744332e-6fac-4e91-9daa-00180271f2bd
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/e5db2d55-1c30-4721-a5be-63a7b828f1bb
+
+https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/4b0674ef-4fed-44b0-a601-5a7b8c757b84
 
