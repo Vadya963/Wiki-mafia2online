@@ -54,7 +54,7 @@ https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/3e3c077f-b220-4a80
 
 https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/e8afa1f0-9d89-434d-a08a-7f8193589b05
 
-https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/54f10169-85a8-49f4-a27a-55e706791b0e
+m09_Fight_torturers (no sound)
 
 https://github.com/Vadya963/Wiki-mafia2online/assets/38101660/82c5697c-8f42-443a-8e19-a0b26105b34d
 
