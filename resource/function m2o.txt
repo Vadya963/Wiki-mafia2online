@@ -1,297 +1,435 @@
-Поиск "pScriptingManager->RegisterFunction" (найдено 276 совпадений в 22 файлах из 9414) [Обычный]
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\C3DTextLabelNatives.cpp (совпадений: 8)
-	Строка  25: 	pScriptingManager->RegisterFunction("create3DTextLabel", Create3DTextLabel, 6, "fffsif");
-	Строка  26: 	pScriptingManager->RegisterFunction("remove3DTextLabel", Remove3DTextLabel, 1, "i");
-	Строка  27: 	pScriptingManager->RegisterFunction("count3DTextLabels", GetCount, 0, NULL);
-	Строка  28: 	pScriptingManager->RegisterFunction("set3DTextLabelText", SetText, 2, "is");
-	Строка  29: 	pScriptingManager->RegisterFunction("set3DTextLabelDrawDistance", SetDrawDistance, 2, "if");
-	Строка  30: 	pScriptingManager->RegisterFunction("set3DTextLabelColor", SetColor, 2, "ii");
-	Строка  31: 	pScriptingManager->RegisterFunction("set3DTextLabelPosition", SetPosition, 4, "ifff");
-	Строка  32: 	pScriptingManager->RegisterFunction("set3DTextLabelActive", SetActive, 2, "ib");
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CCameraNatives.cpp (совпадений: 3)
-	Строка 24: 	pScriptingManager->RegisterFunction( "getCameraPosition", GetPosition, 0, NULL );
-	Строка 25: 	pScriptingManager->RegisterFunction( "getCameraRotation", GetRotation, 0, NULL );
-	Строка 26: 	pScriptingManager->RegisterFunction( "simpleShake", SimpleShake, 3, "fff");
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CClientNatives.cpp (совпадений: 4)
-	Строка  31: 	pScriptingManager->RegisterFunction( "triggerServerEvent", TriggerServerEvent, -1, NULL );
-	Строка  34: 	pScriptingManager->RegisterFunction( "bindKey", BindKey, 3, "ssc" );
-	Строка  35: 	pScriptingManager->RegisterFunction( "unbindKey", UnbindKey, 2, "ss" );
-	Строка  36: 	pScriptingManager->RegisterFunction( "isKeyBound", IsKeyBound, 2, "ss" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGameNatives.cpp (совпадений: 19)
-	Строка  25: 	pScriptingManager->RegisterFunction( "setWeather", SetWeather, 1, "s" );
-	Строка  26: 	pScriptingManager->RegisterFunction( "getWeather", GetWeather, 0, NULL );
-	Строка  27: 	pScriptingManager->RegisterFunction( "toggleHud", ToggleHud, 1, "b" );
-	Строка  28: 	pScriptingManager->RegisterFunction( "takeScreenshot", TakeScreenshot, 0, NULL );
-	Строка  29: 	pScriptingManager->RegisterFunction( "fadeScreen", FadeScreen, -1, NULL );
-	Строка  30: 	pScriptingManager->RegisterFunction( "createHudTimer", CreateHudTimer, -1, NULL );
-	Строка  31: 	pScriptingManager->RegisterFunction( "setHudTimerRemainingTime", SetHudTimerRemainingTime, 1, "f" );
-	Строка  32: 	pScriptingManager->RegisterFunction( "getHudTimerReminaingTime", GetHudTimerRemainingTime, 0, NULL );
-	Строка  33: 	pScriptingManager->RegisterFunction( "startHudTimer", StartHudTimer, 0, NULL );
-	Строка  34: 	pScriptingManager->RegisterFunction( "stopHudTimer", StopHudTimer, 0, NULL );
-	Строка  35: 	pScriptingManager->RegisterFunction( "isHudTimerRunning", IsHudTimerRunning, 0, NULL );
-	Строка  36: 	pScriptingManager->RegisterFunction( "destroyHudTimer", DestroyHudTimer, 0, NULL );
-	Строка  37: 	pScriptingManager->RegisterFunction( "openMap", OpenMap, 0, NULL );
-	Строка  38: 	pScriptingManager->RegisterFunction( "isMapOpen", IsMapOpen, 0, NULL );
-	Строка  39: 	pScriptingManager->RegisterFunction( "setGPSTarget", SetGPSTarget, 3, "ffs" );
-	Строка  40: 	pScriptingManager->RegisterFunction( "removeGPSTarget", RemoveGPSTarget, 0, NULL );
-	Строка  41: 	pScriptingManager->RegisterFunction( "disableTranslocator", DisableTranslocator, 1, "b" );
-	Строка  42: 	pScriptingManager->RegisterFunction( "executeLuaHandler", ExecuteLuaHandler, 1, "s" );
-	Строка  43: 	pScriptingManager->RegisterFunction( "showHint", ShowHint, 4, "iisf" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGraphicsNatives.cpp (совпадений: 9)
-	Строка  28: 	pScriptingManager->RegisterFunction( "getFPS", GetFPS, 0, NULL );
-	Строка  29: 	pScriptingManager->RegisterFunction( "getScreenSize", GetScreenSize, 0, NULL );
-	Строка  30: 	pScriptingManager->RegisterFunction( "getMousePosition", GetMousePosition, 0, NULL );
-	Строка  31: 	pScriptingManager->RegisterFunction( "getScreenFromWorld", WorldToScreen, 3, "fff" );
-	Строка  32: 	pScriptingManager->RegisterFunction( "getWorldFromScreen", ScreenToWorld, 3, "fff" );
-	Строка  33: 	pScriptingManager->RegisterFunction( "showChat", ShowChat, 1, "b" );
-	Строка  34: 	pScriptingManager->RegisterFunction( "isChatVisible", IsChatVisible, 0, NULL );
-	Строка  35: 	pScriptingManager->RegisterFunction( "isInputVisible", IsInputVisible, 0, NULL );
-	Строка  36: 	pScriptingManager->RegisterFunction( "sendMessage", SendMessage, -1, NULL );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGUINatives.cpp (совпадений: 34)
-	Строка  52: 	pScriptingManager->RegisterFunction( "dxCreateFont", NewFont, 3, "sib" );
-	Строка  53: 	pScriptingManager->RegisterFunction( "dxDrawText", DrawText, -1, NULL );
-	Строка  54: 	pScriptingManager->RegisterFunction( "dxDrawRectangle", DrawRectangle, 5, "ffffi" );
-	Строка  55: 	pScriptingManager->RegisterFunction( "dxDrawLine", DrawLine, 5, "ffffi" );
-	Строка  56: 	pScriptingManager->RegisterFunction( "dxGetTextDimensions", GetTextDimensions, 3, "sfs" );
-	Строка  57: 	pScriptingManager->RegisterFunction( "dxLoadTexture", LoadTexture, 1, "s" );
-	Строка  58: 	pScriptingManager->RegisterFunction( "dxDrawTexture", DrawTexture, -1, NULL );
-	Строка  59: 	pScriptingManager->RegisterFunction( "dxDestroyTexture", DestroyTexture, -1, NULL );
-	Строка  60: 	pScriptingManager->RegisterFunction( "isTransferBoxShowing", IsTransferBoxShowing, 0, NULL );
-	Строка  61: 	pScriptingManager->RegisterFunction( "showCursor", ShowCursor, 1, "b" );
-	Строка  62: 	pScriptingManager->RegisterFunction( "isCursorShowing", IsCursorShowing, 0, NULL );
-	Строка  63: 	pScriptingManager->RegisterFunction( "isMainMenuShowing", IsMainMenuShowing, 0, NULL );
-	Строка  66: 	pScriptingManager->RegisterFunction( "guiCreateElement", CreateElement, -1, NULL );
-	Строка  67: 	pScriptingManager->RegisterFunction( "guiDestroyElement", DestroyElement, 1, "p" );
-	Строка  68: 	pScriptingManager->RegisterFunction( "guiSetPosition", GuiSetPosition, -1, NULL );
-	Строка  69: 	pScriptingManager->RegisterFunction( "guiGetPosition", GuiGetPosition, -1, NULL );
-	Строка  70: 	pScriptingManager->RegisterFunction( "guiSetSize", GuiSetSize, -1, NULL );
-	Строка  71: 	pScriptingManager->RegisterFunction( "guiGetSize", GuiGetSize, -1, NULL );
-	Строка  72: 	pScriptingManager->RegisterFunction( "guiSetVisible", GuiSetVisible, 2, "pb" );
-	Строка  73: 	pScriptingManager->RegisterFunction( "guiIsVisible", GuiIsVisible, 1, "p" );
-	Строка  74: 	pScriptingManager->RegisterFunction( "guiSetText", GuiSetText, 2, "ps" );
-	Строка  75: 	pScriptingManager->RegisterFunction( "guiGetText", GuiGetText, 1, "p" );
-	Строка  76: 	pScriptingManager->RegisterFunction( "guiBringToFront", GuiBringToFront, 1, "p" );
-	Строка  77: 	pScriptingManager->RegisterFunction( "guiSendToBack", GuiSendToBack, 1, "p" );
-	Строка  78: 	pScriptingManager->RegisterFunction( "guiSetAlpha", GuiSetAlpha, 2, "pf" );
-	Строка  79: 	pScriptingManager->RegisterFunction( "guiGetAlpha", GuiGetAlpha, 1, "p" );
-	Строка  80: 	pScriptingManager->RegisterFunction( "guiSetAlwaysOnTop", GuiSetAlwaysOnTop, 2, "pb" );
-	Строка  81: 	pScriptingManager->RegisterFunction( "guiIsAlwaysOnTop", GuiIsAlwaysOnTop, 1, "p" );
-	Строка  82: 	pScriptingManager->RegisterFunction( "guiSetInputMasked", GuiSetInputMasked, 2, "pb" );
-	Строка  83: 	pScriptingManager->RegisterFunction( "guiIsInputMasked", GuiIsInputMasked, 1, "p" );
-	Строка  84: 	pScriptingManager->RegisterFunction( "guiChangeImage", GuiChangeImage, 2, "ps" );
-	Строка  85: 	pScriptingManager->RegisterFunction( "guiSetSizable", GuiSetSizable, 2, "pb" );
-	Строка  86: 	pScriptingManager->RegisterFunction( "guiSetMovable", GuiSetMovable, 2, "pb" );
-	Строка  87: 	pScriptingManager->RegisterFunction( "getFilePath", GetFilePath, 1, "s" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CPlayerNatives.cpp (совпадений: 32)
-	Строка  38: 	pScriptingManager->RegisterFunction( "getLocalPlayer", GetLocalPlayer, 0, NULL );
-	Строка  39: 	pScriptingManager->RegisterFunction( "getPlayerName", GetName, 1, "i" );
-	Строка  40: 	pScriptingManager->RegisterFunction( "setPlayerName", SetName, 2, "is" );
-	Строка  41: 	pScriptingManager->RegisterFunction( "getPlayerPing", GetPing, 1, "i" );
-	Строка  42: 	pScriptingManager->RegisterFunction( "getPlayerColour", GetColour, 1, "i" );
-	Строка  43: 	pScriptingManager->RegisterFunction( "isPlayerConnected", IsPlayerConnected, 1, "i" );
-	Строка  44: 	pScriptingManager->RegisterFunction( "isPlayerOnScreen", IsOnScreen, 1, "i" );
-	Строка  45: 	pScriptingManager->RegisterFunction( "isPlayerSpawned", IsSpawned, 1, "i" );
-	Строка  46: 	pScriptingManager->RegisterFunction( "setPlayerPosition", SetPosition, 4, "ifff" );
-	Строка  47: 	pScriptingManager->RegisterFunction( "getPlayerPosition", GetPosition, 1, "i" );
-	Строка  48: 	pScriptingManager->RegisterFunction( "setPlayerRotation", SetRotation, 4, "ifff" );
-	Строка  49: 	pScriptingManager->RegisterFunction( "getPlayerRotation", GetRotation, 1, "i" );
-	Строка  50: 	pScriptingManager->RegisterFunction( "setPlayerHealth", SetHealth, 2, "if" );
-	Строка  51: 	pScriptingManager->RegisterFunction( "getPlayerHealth", GetHealth, 1, "i" );
-	Строка  52: 	pScriptingManager->RegisterFunction( "togglePlayerControls", ToggleControls, 1, "b" );
-	Строка  53: 	pScriptingManager->RegisterFunction( "isTogglePlayerControls", IsToggleControls, 0, NULL );
-	Строка  54: 	pScriptingManager->RegisterFunction( "isPlayerInVehicle", IsInVehicle, 1, "i" );
-	Строка  55: 	pScriptingManager->RegisterFunction( "getPlayerVehicle", GetVehicle, 1, "i" );
-	Строка  56: 	pScriptingManager->RegisterFunction( "setPlayerDrunkLevel", SetDrunkLevel, 1, "i");
-	Строка  57: 	pScriptingManager->RegisterFunction( "getPlayerDrunkLevel", GetDrunkLevel, 0, NULL);
-	Строка  58: 	pScriptingManager->RegisterFunction( "resetPlayerDrunkLevel", ResetDrunkLevel, 0, NULL);
-	Строка  59: 	pScriptingManager->RegisterFunction( "setPlayerWantedLevel", SetWantedLevel, 2, "ii");
-	Строка  60: 	pScriptingManager->RegisterFunction( "getPlayerWantedLevel", GetWantedLevel, 0, NULL);
-	Строка  61: 	pScriptingManager->RegisterFunction( "getPlayerMoveState", GetMoveState, 1, "i" );
-	Строка  62: 	pScriptingManager->RegisterFunction( "setPlayerMoney", SetMoney, 2, "ii" );
-	Строка  63: 	pScriptingManager->RegisterFunction( "givePlayerMoney", GiveMoney, 2, "ii" );
-	Строка  64: 	pScriptingManager->RegisterFunction( "takePlayerMoney", TakeMoney, 2, "ii" );
-	Строка  65: 	pScriptingManager->RegisterFunction( "getPlayerMoney", GetMoney, 1, "i" );
-	Строка  66: 	pScriptingManager->RegisterFunction( "getPlayerGUID", getGUID, 1, "i" );
-	Строка  67: 	pScriptingManager->RegisterFunction( "reloadPlayerWeapon", ReloadWeapon, 1, "i" );
-	Строка  70: 	pScriptingManager->RegisterFunction("setRenderNametags", SetRenderNametags, 1, "b");
-	Строка  71: 	pScriptingManager->RegisterFunction("setRenderHealthbar", SetRenderHealthbar, 1, "b");
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CBanNatives.cpp (совпадений: 4)
-	Строка  15: 	pScriptingManager->RegisterFunction( "banPlayer", BanPlayer, 4, "iiis" );
-	Строка  16: 	pScriptingManager->RegisterFunction( "banSerial", BanSerial, 4, "siis" );
-	Строка  17: 	pScriptingManager->RegisterFunction( "unbanSerial", UnbanSerial, 1, "s" );
-	Строка  18: 	pScriptingManager->RegisterFunction( "isSerialBanned", IsSerialBanned, 1, "s" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CHttpNatives.cpp (совпадений: 1)
-	Строка 15: 	pScriptingManager->RegisterFunction( "webRequest", WebRequest, -1, NULL );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CPlayerNatives.cpp (совпадений: 43)
-	Строка   15: 	pScriptingManager->RegisterFunction( "isPlayerConnected", IsConnected, 1, "i" );
-	Строка   16: 	pScriptingManager->RegisterFunction( "isPlayerSpawned", IsSpawned, 1, "i" );
-	Строка   17: 	pScriptingManager->RegisterFunction( "getPlayerName", GetName, 1, "i" );
-	Строка   18: 	pScriptingManager->RegisterFunction( "setPlayerName", SetName, 2, "is" );
-	Строка   19: 	pScriptingManager->RegisterFunction( "getPlayerSerial", GetSerial, 1, "i" );
-	Строка   20: 	pScriptingManager->RegisterFunction( "setPlayerPosition", SetPosition, 4, "ifff" );
-	Строка   21: 	pScriptingManager->RegisterFunction( "getPlayerPosition", GetPosition, 1, "i" );
-	Строка   22: 	pScriptingManager->RegisterFunction( "sendPlayerMessage", OutputMessage, -1, NULL );
-	Строка   23: 	pScriptingManager->RegisterFunction( "sendPlayerMessageToAll", OutputMessageToAll, -1, NULL );
-	Строка   24: 	pScriptingManager->RegisterFunction( "setPlayerRotation", SetRotation, 4, "ifff" );
-	Строка   25: 	pScriptingManager->RegisterFunction( "getPlayerRotation", GetRotation, 1, "i" );
-	Строка   26: 	pScriptingManager->RegisterFunction( "setPlayerHealth", SetHealth, 2, "if" );
-	Строка   27: 	pScriptingManager->RegisterFunction( "getPlayerHealth", GetHealth, 1, "i" );
-	Строка   28: 	pScriptingManager->RegisterFunction( "givePlayerWeapon", GiveWeapon, 3, "iii" );
-	Строка   29: 	pScriptingManager->RegisterFunction( "getPlayerWeapon", GetWeapon, 1, "i" );
-	Строка   30: 	pScriptingManager->RegisterFunction( "getPlayerWeaponBullet", GetWeaponBullet, 1, "i");
-	Строка   31: 	pScriptingManager->RegisterFunction( "removePlayerWeapon", RemoveWeapon, -1, NULL );
-	Строка   32: 	pScriptingManager->RegisterFunction( "setPlayerColour", SetColour, 2, "ii" );
-	Строка   33: 	pScriptingManager->RegisterFunction( "getPlayerColour", GetColour, 1, "i" );
-	Строка   34: 	pScriptingManager->RegisterFunction( "togglePlayerHud", ToggleHud, 2, "ib" );
-	Строка   35: 	pScriptingManager->RegisterFunction( "setPlayerMoney", SetMoney, 2, "ii" );
-	Строка   36: 	pScriptingManager->RegisterFunction( "givePlayerMoney", GiveMoney, 2, "ii" );
-	Строка   37: 	pScriptingManager->RegisterFunction( "takePlayerMoney", TakeMoney, 2, "ii" );
-	Строка   38: 	pScriptingManager->RegisterFunction( "getPlayerMoney", GetMoney, 1, "i" );
-	Строка   39: 	pScriptingManager->RegisterFunction( "togglePlayerControls", ToggleControls, 2, "ib" );
-	Строка   40: 	pScriptingManager->RegisterFunction( "kickPlayer", Kick, 1, "i" );
-	Строка   41: 	pScriptingManager->RegisterFunction( "playSoundForPlayer", PlaySound, 2, "is" );
-	Строка   42: 	pScriptingManager->RegisterFunction( "playSoundForAll", PlaySoundToAll, 1, "s" );
-	Строка   43: 	pScriptingManager->RegisterFunction( "stopSoundForPlayer", StopSound, 1, "i" );
-	Строка   44: 	pScriptingManager->RegisterFunction( "stopSoundForAll", StopSoundToAll, 0, NULL );
-	Строка   45: 	pScriptingManager->RegisterFunction( "getPlayerNetworkStats", GetNetworkStats, 1, "i" );
-	Строка   46: 	pScriptingManager->RegisterFunction( "triggerClientEvent", TriggerClientEvent, -1, NULL );
-	Строка   47: 	pScriptingManager->RegisterFunction( "setPlayerModel", SetModel, 2, "ii" );
-	Строка   48: 	pScriptingManager->RegisterFunction( "getPlayerModel", GetModel, 1, "i" );
-	Строка   49: 	pScriptingManager->RegisterFunction( "isPlayerInVehicle", IsInVehicle, 1, "i" );
-	Строка   50: 	pScriptingManager->RegisterFunction( "getPlayerVehicle", GetVehicle, 1, "i" );
-	Строка   51: 	pScriptingManager->RegisterFunction( "getPlayerPing", GetPing, 1, "i" );
-	Строка   52: 	pScriptingManager->RegisterFunction( "getPlayerIP", GetIP, 1, "i" );
-	Строка   53: 	pScriptingManager->RegisterFunction( "putPlayerInVehicle", PutInVehicle, 3, "iii" );
-	Строка   54: 	pScriptingManager->RegisterFunction( "removePlayerFromVehicle", RemoveFromVehicle, 1, "i" );
-	Строка   55: 	pScriptingManager->RegisterFunction( "respawnPlayer", RespawnPlayer, 1, "i" );
-	Строка   56: 	pScriptingManager->RegisterFunction( "setPlayerAnimStyle", SetAnimStyle, 3, "iss");
-	Строка   57: 	pScriptingManager->RegisterFunction( "setPlayerHandModel", SetHandModel, 3, "iii");
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CServerNatives.cpp (совпадений: 13)
-	Строка  16: 	pScriptingManager->RegisterFunction( "setGameModeText", SetGameModeText, 1, "s" );
-	Строка  17: 	pScriptingManager->RegisterFunction( "setMapName", SetMapName, 1, "s" );
-	Строка  18: 	pScriptingManager->RegisterFunction( "setWeather", SetWeather, 1, "s" );
-	Строка  19: 	pScriptingManager->RegisterFunction( "setSummer", SetSummer, 1, "b" );
-	Строка  20: 	pScriptingManager->RegisterFunction( "getNetworkStats", GetNetworkStats, 0, NULL );
-	Строка  21: 	pScriptingManager->RegisterFunction( "getWhoWas", GetWhoWasList, 0, NULL );
-	Строка  22: 	pScriptingManager->RegisterFunction( "clearWhoWas", ClearWhoWas, 0, NULL );
-	Строка  23: 	pScriptingManager->RegisterFunction( "getWhoWasCount", GetWhoWasCount, 0, NULL );
-	Строка  24: 	pScriptingManager->RegisterFunction( "shutdown", Shutdown, 0, NULL );
-	Строка  25: 	pScriptingManager->RegisterFunction( "startResource", StartResource, 1, "s" );
-	Строка  26: 	pScriptingManager->RegisterFunction( "stopResource", StopResource, 1, "s" );
-	Строка  27: 	pScriptingManager->RegisterFunction( "restartResource", RestartResource, 1, "s" );
-	Строка  28: 	pScriptingManager->RegisterFunction( "disableCityShops", DisableCityShops, 1, "b" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CVehicleNatives.cpp (совпадений: 5)
-	Строка  15: 	pScriptingManager->RegisterFunction( "createVehicle", Create, 7, "iffffff" );
-	Строка  16: 	pScriptingManager->RegisterFunction( "destroyVehicle", Destroy, 1, "i" );
-	Строка  18: 	pScriptingManager->RegisterFunction( "setVehicleRespawnTime", SetRespawnTime, 2, "ii" );
-	Строка  19: 	pScriptingManager->RegisterFunction( "getVehicleRespawnTime", GetRespawnTime, 1, "i" );
-	Строка  21: 	pScriptingManager->RegisterFunction( "respawnVehicle", RespawnVehicle, 1, "i" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CAreaNatives.cpp (совпадений: 7)
-	Строка  21: 	pScriptingManager->RegisterFunction( "getDistanceBetweenPoints3D", DistanceBetweenPoints3D, 6, "ffffff" );
-	Строка  22: 	pScriptingManager->RegisterFunction( "getDistanceBetweenPoints2D", DistanceBetweenPoints2D, 4, "ffff" );
-	Строка  23: 	pScriptingManager->RegisterFunction( "isPointInArea3D", PointInArea3D, 9, "fffffffff" );
-	Строка  24: 	pScriptingManager->RegisterFunction( "isPointInArea2D", PointInArea2D, 6, "ffffff" );
-	Строка  25: 	pScriptingManager->RegisterFunction( "isPointInCircle3D", PointInCircle3D, 7, "fffffff" );
-	Строка  26: 	pScriptingManager->RegisterFunction( "isPointInCircle2D", PointInCircle2D, 5, "fffff" );
-	Строка  27: 	pScriptingManager->RegisterFunction( "isPointInTube", PointInTube, 8, "ffffffff" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CBlipNatives.cpp (совпадений: 5)
-	Строка  31: 	pScriptingManager->RegisterFunction( "createBlip", Create, 4, "ffii" );
-	Строка  32: 	pScriptingManager->RegisterFunction( "destroyBlip", Destroy, 1, "i" );
-	Строка  33: 	pScriptingManager->RegisterFunction( "attachBlipToPlayer", AttachToPlayer, 2, "ii" );
-	Строка  34: 	pScriptingManager->RegisterFunction( "attachBlipToVehicle", AttachToVehicle, 2, "ii" );
-	Строка  35: 	pScriptingManager->RegisterFunction( "attachBlipToPed", AttachToPed, 2, "ii" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CEventNatives.cpp (совпадений: 4)
-	Строка  27: 	pScriptingManager->RegisterFunction( "addEventHandler", AddEvent, -1, NULL );
-	Строка  28: 	pScriptingManager->RegisterFunction( "callEvent", CallEvent, -1, NULL );
-	Строка  29: 	pScriptingManager->RegisterFunction( "removeEventHandler", RemoveEvent, -2, "sc" );
-	Строка  31: 	pScriptingManager->RegisterFunction( "addCommandHandler", AddCommand, -1, NULL );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CHashNatives.cpp (совпадений: 3)
-	Строка 19: 	pScriptingManager->RegisterFunction( "md5", md5_string, 1, "s" );
-	Строка 20: 	pScriptingManager->RegisterFunction( "md5_file", md5_file, 1, "s" );
-	Строка 21: 	pScriptingManager->RegisterFunction( "crc32", crc32, 1, "s" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CPedNatives.cpp (совпадений: 16)
-	Строка  28: 	pScriptingManager->RegisterFunction( "createPed", CreatePed, 7, "iffffff" );
-	Строка  29: 	pScriptingManager->RegisterFunction( "destroyPed", DestroyPed, 1, "i" );
-	Строка  30: 	pScriptingManager->RegisterFunction( "setPedName", SetPedName, 2, "is" );
-	Строка  31: 	pScriptingManager->RegisterFunction( "getPedName", GetPedName, 1, "i" );
-	Строка  32: 	pScriptingManager->RegisterFunction( "showPedName", ShowPedName, 2, "ib" );
-	Строка  33: 	pScriptingManager->RegisterFunction( "setPedModel", SetPedModel, 2, "ii" );
-	Строка  34: 	pScriptingManager->RegisterFunction( "getPedModel", GetPedModel, 1, "i" );
-	Строка  35: 	pScriptingManager->RegisterFunction( "getPedPosition", GetPedPosition, 1, "i" );
-	Строка  36: 	pScriptingManager->RegisterFunction( "setPedPosition", SetPedPosition, 4, "ifff" );
-	Строка  37: 	pScriptingManager->RegisterFunction( "getPedRotation", GetPedRotation, 1, "i" );
-	Строка  38: 	pScriptingManager->RegisterFunction( "setPedRotation", SetPedRotation, 4, "ifff" );
-	Строка  39: 	pScriptingManager->RegisterFunction( "pedMoveTo", PedMove, 5, "ifffi" );
-	Строка  40: 	pScriptingManager->RegisterFunction( "pedShootTo", PedShoot, 4, "ifff" );
-	Строка  41: 	pScriptingManager->RegisterFunction( "pedAimTo", PedAim, 4, "ifff" );
-	Строка  42: 	pScriptingManager->RegisterFunction( "givePedWeapon", GiveWeapon, 3, "iii" );
-	Строка  43: 	pScriptingManager->RegisterFunction( "setPedWeapon", SetWeapon, 2, "ii" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSharedPlayerNatives.cpp (совпадений: 1)
-	Строка 29: 	pScriptingManager->RegisterFunction( "getPlayers", GetPlayers, 0, NULL);
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSharedVehicleNatives.cpp (совпадений: 47)
-	Строка   31: 	pScriptingManager->RegisterFunction( "setVehiclePosition", SetPosition, 4, "ifff" );
-	Строка   32: 	pScriptingManager->RegisterFunction( "getVehiclePosition", GetPosition, 1, "i" );
-	Строка   33: 	pScriptingManager->RegisterFunction( "setVehicleRotation", SetRotation, 4, "ifff" );
-	Строка   34: 	pScriptingManager->RegisterFunction( "getVehicleRotation", GetRotation, 1, "i" );
-	Строка   35: 	pScriptingManager->RegisterFunction( "setVehicleColour", SetColour, 7, "iiiiiii" );
-	Строка   36: 	pScriptingManager->RegisterFunction( "getVehicleColour", GetColour, 1, "i" );
-	Строка   37: 	pScriptingManager->RegisterFunction( "setVehiclePlateText", SetPlateText, 2, "is" );
-	Строка   38: 	pScriptingManager->RegisterFunction( "getVehiclePlateText", GetPlateText, 1, "i" );
-	Строка   39: 	pScriptingManager->RegisterFunction( "repairVehicle", Repair, 1, "i" );
-	Строка   40: 	pScriptingManager->RegisterFunction( "setVehicleDirtLevel", SetDirtLevel, 2, "if" );
-	Строка   41: 	pScriptingManager->RegisterFunction( "getVehicleDirtLevel", GetDirtLevel, 1, "i" );
-	Строка   42: 	pScriptingManager->RegisterFunction( "setVehicleEngineState", SetEngineState, 2, "ib" );
-	Строка   43: 	pScriptingManager->RegisterFunction( "getVehicleEngineState", GetEngineState, 1, "i" );
-	Строка   44: 	pScriptingManager->RegisterFunction( "explodeVehicle", Explode, 1, "i" );
-	Строка   45: 	pScriptingManager->RegisterFunction( "setVehiclePartOpen", SetPartOpen, 3, "iib" );
-	Строка   46: 	pScriptingManager->RegisterFunction( "isVehiclePartOpen", IsPartOpen, 2, "ii" );
-	Строка   47: 	pScriptingManager->RegisterFunction( "setVehicleSirenState", SetSirenState, 2, "ib" );
-	Строка   48: 	pScriptingManager->RegisterFunction( "getVehicleSirenState", GetSirenState, 1, "i" );
-	Строка   49: 	pScriptingManager->RegisterFunction( "setVehicleBeaconLightState", SetBeaconLightState, 2, "ib");
-	Строка   50: 	pScriptingManager->RegisterFunction( "getVehicleBeaconLightState", GetBeaconLightState, 1, "i");
-	Строка   51: 	pScriptingManager->RegisterFunction( "setVehicleHornState", SetHornState, 2, "ib" );
-	Строка   52: 	pScriptingManager->RegisterFunction( "getVehicleHornState", GetHornState, 1, "i" );
-	Строка   53: 	pScriptingManager->RegisterFunction( "setVehicleWindowOpen", SetWindowOpen, 3, "iib" );
-	Строка   54: 	pScriptingManager->RegisterFunction( "isVehicleWindowOpen", IsWindowOpen, 2, "ii" );
-	Строка   55: 	pScriptingManager->RegisterFunction( "setVehicleTuningTable", SetTuningTable, 2, "ii" );
-	Строка   56: 	pScriptingManager->RegisterFunction( "getVehicleTuningTable", GetTuningTable, 1, "i" );
-	Строка   57: 	pScriptingManager->RegisterFunction( "setVehicleWheelModel", SetWheelTexture, 3, "iii" );
-	Строка   58: 	pScriptingManager->RegisterFunction( "getVehicleWheelModel", GetWheelTexture, 2, "ii" );
-	Строка   59: 	pScriptingManager->RegisterFunction( "getVehicleModel", GetModel, 1, "i" );
-	Строка   60: 	//pScriptingManager->RegisterFunction( "setVehicleModel", SetM, 2, "ii" );
-	Строка   61: 	pScriptingManager->RegisterFunction( "getVehicles", GetVehicles, 0, NULL );
-	Строка   62: 	pScriptingManager->RegisterFunction( "setVehicleSpeed", SetSpeed, 4, "ifff" );
-	Строка   63: 	pScriptingManager->RegisterFunction( "getVehicleSpeed", GetSpeed, 1, "i" );
-	Строка   64: 	pScriptingManager->RegisterFunction( "setVehicleFuel", SetFuel, 2, "if" );
-	Строка   65: 	pScriptingManager->RegisterFunction( "getVehicleFuel", GetFuel, 1, "i" );
-	Строка   66: 	pScriptingManager->RegisterFunction( "setVehicleLightState", SetLightState, 2, "ib" );
-	Строка   67: 	pScriptingManager->RegisterFunction( "getVehicleLightState", GetLightState, 1, "i" );
-	Строка   68: 	pScriptingManager->RegisterFunction( "setIndicatorLightState", SetIndicatorLightState, 3, "iib" );
-	Строка   69: 	pScriptingManager->RegisterFunction( "getIndicatorLightState", GetIndicatorLightState, 2, "ii" );
-	Строка   70: 	pScriptingManager->RegisterFunction( "setTaxiLightState", SetTaxiLightState, 2, "ib" );
-	Строка   71: 	pScriptingManager->RegisterFunction( "getTaxiLightState", GetTaxiLightState, 1, "i" );
-	Строка   72: 	pScriptingManager->RegisterFunction( "getVehicleHandbrake", GetVehicleHandbrake, 1, "i" );
-	Строка   73: 	pScriptingManager->RegisterFunction( "setVehicleHandbrake", SetVehicleHandbrake, 2, "ib" );
-	Строка   74: 	pScriptingManager->RegisterFunction( "setVehicleLocked", SetVehicleLocked, 2, "ib" );
-	Строка   75: 	pScriptingManager->RegisterFunction( "setVehicleEngineDamage", SetVehicleEngineDamage, 2, "if" );
-	Строка   76: 	pScriptingManager->RegisterFunction( "getVehicleEngineDamage", GetVehicleEngineDamage, 1, "i" );
-	Строка   77: 	pScriptingManager->RegisterFunction( "getVehicleGUID", GetVehicleGUID, 1, "i" );
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSystemNatives.cpp (совпадений: 10)
-	Строка  33: 	pScriptingManager->RegisterFunction( "log", Log, 1, "s" );
-	Строка  34: 	pScriptingManager->RegisterFunction( "time", Time, 0, NULL );
-	Строка  35: 	pScriptingManager->RegisterFunction( "getTickCount", TickCount, 0, NULL );
-	Строка  36: 	pScriptingManager->RegisterFunction( "date", Date, 0, NULL );
-	Строка  37: 	pScriptingManager->RegisterFunction( "getPlayerCount", PlayerCount, 0, NULL );
-	Строка  38: 	pScriptingManager->RegisterFunction( "getMaxPlayers", MaxPlayers, 0, NULL );
-	Строка  39: 	pScriptingManager->RegisterFunction( "getServerName", ServerName, 0, NULL );
-	Строка  40: 	pScriptingManager->RegisterFunction( "strRand", StrRand, 1, "i");
-	Строка  41: 	pScriptingManager->RegisterFunction( "intConcat", IntConcat, 2, "ii");
-	Строка  42: 	pScriptingManager->RegisterFunction( "getDateTime", GetDateTime, 0, NULL);
-  C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CUtilNatives.cpp (совпадений: 7)
-	Строка  35: 	pScriptingManager->RegisterFunction( "getPlayerIdFromName", PlayerIdFromName, 1, "s" );
-	Строка  36: 	pScriptingManager->RegisterFunction( "getWeaponNameFromId", WeaponNameFromId, 1, "i" );
-	Строка  37: 	pScriptingManager->RegisterFunction( "getWeaponIdFromName", WeaponIdFromName, 1, "s" );
-	Строка  38: 	pScriptingManager->RegisterFunction( "getVehicleFuelTankCapacityFromModel", GetFuelTankCapacityFromModel, 1, "i" );
-	Строка  39: 	pScriptingManager->RegisterFunction( "toRGBA", ToRGBA, 1, "i" );
-	Строка  40: 	pScriptingManager->RegisterFunction( "fromRGB", FromRGB, -1, NULL );
-	Строка  41: 	pScriptingManager->RegisterFunction( "clamp", Clamp, 3, "fff" );
+Searching 8608 files for "pScriptingManager->RegisterFunction("
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CAreaNatives.cpp:
+   19  void CAreaNatives::Register( CScriptingManager * pScriptingManager )
+   20  {
+   21: 	pScriptingManager->RegisterFunction( "getDistanceBetweenPoints3D", DistanceBetweenPoints3D, 6, "ffffff" );
+   22: 	pScriptingManager->RegisterFunction( "getDistanceBetweenPoints2D", DistanceBetweenPoints2D, 4, "ffff" );
+   23: 	pScriptingManager->RegisterFunction( "isPointInArea3D", PointInArea3D, 9, "fffffffff" );
+   24: 	pScriptingManager->RegisterFunction( "isPointInArea2D", PointInArea2D, 6, "ffffff" );
+   25: 	pScriptingManager->RegisterFunction( "isPointInCircle3D", PointInCircle3D, 7, "fffffff" );
+   26: 	pScriptingManager->RegisterFunction( "isPointInCircle2D", PointInCircle2D, 5, "fffff" );
+   27: 	pScriptingManager->RegisterFunction( "isPointInTube", PointInTube, 8, "ffffffff" );
+   28  }
+   29  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CBlipNatives.cpp:
+   29  void CBlipNatives::Register( CScriptingManager * pScriptingManager )
+   30  {
+   31: 	pScriptingManager->RegisterFunction( "createBlip", Create, 4, "ffii" );
+   32: 	pScriptingManager->RegisterFunction( "destroyBlip", Destroy, 1, "i" );
+   33: 	pScriptingManager->RegisterFunction( "attachBlipToPlayer", AttachToPlayer, 2, "ii" );
+   34: 	pScriptingManager->RegisterFunction( "attachBlipToVehicle", AttachToVehicle, 2, "ii" );
+   35: 	pScriptingManager->RegisterFunction( "attachBlipToPed", AttachToPed, 2, "ii" );
+   36  }
+   37  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CEventNatives.cpp:
+   25  void CEventNatives::Register( CScriptingManager * pScriptingManager )
+   26  {
+   27: 	pScriptingManager->RegisterFunction( "addEventHandler", AddEvent, -1, NULL );
+   28: 	pScriptingManager->RegisterFunction( "callEvent", CallEvent, -1, NULL );
+   29: 	pScriptingManager->RegisterFunction( "removeEventHandler", RemoveEvent, -2, "sc" );
+   30  
+   31: 	pScriptingManager->RegisterFunction( "addCommandHandler", AddCommand, -1, NULL );
+   32  }
+   33  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CHashNatives.cpp:
+   17  void CHashNatives::Register( CScriptingManager * pScriptingManager )
+   18  {
+   19: 	pScriptingManager->RegisterFunction( "md5", md5_string, 1, "s" );
+   20: 	pScriptingManager->RegisterFunction( "md5_file", md5_file, 1, "s" );
+   21: 	pScriptingManager->RegisterFunction( "crc32", crc32, 1, "s" );
+   22  }
+   23  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CPedNatives.cpp:
+   26  void CPedNatives::Register( CScriptingManager * pScriptingManager )
+   27  {
+   28: 	pScriptingManager->RegisterFunction( "createPed", CreatePed, 7, "iffffff" );
+   29: 	pScriptingManager->RegisterFunction( "destroyPed", DestroyPed, 1, "i" );
+   30: 	pScriptingManager->RegisterFunction( "setPedName", SetPedName, 2, "is" );
+   31: 	pScriptingManager->RegisterFunction( "getPedName", GetPedName, 1, "i" );
+   32: 	pScriptingManager->RegisterFunction( "showPedName", ShowPedName, 2, "ib" );
+   33: 	pScriptingManager->RegisterFunction( "setPedModel", SetPedModel, 2, "ii" );
+   34: 	pScriptingManager->RegisterFunction( "getPedModel", GetPedModel, 1, "i" );
+   35: 	pScriptingManager->RegisterFunction( "getPedPosition", GetPedPosition, 1, "i" );
+   36: 	pScriptingManager->RegisterFunction( "setPedPosition", SetPedPosition, 4, "ifff" );
+   37: 	pScriptingManager->RegisterFunction( "getPedRotation", GetPedRotation, 1, "i" );
+   38: 	pScriptingManager->RegisterFunction( "setPedRotation", SetPedRotation, 4, "ifff" );
+   39: 	pScriptingManager->RegisterFunction( "pedMoveTo", PedMove, 5, "ifffi" );
+   40: 	pScriptingManager->RegisterFunction( "pedShootTo", PedShoot, 4, "ifff" );
+   41: 	pScriptingManager->RegisterFunction( "pedAimTo", PedAim, 4, "ifff" );
+   42: 	pScriptingManager->RegisterFunction( "givePedWeapon", GiveWeapon, 3, "iii" );
+   43: 	pScriptingManager->RegisterFunction( "setPedWeapon", SetWeapon, 2, "ii" );
+   44  
+   45  	pScriptingManager->RegisterConstant( "MOVE_WALK", M2Enums::eMoveType::E_WALK );
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSharedPlayerNatives.cpp:
+   27  void CSharedPlayerNatives::Register( CScriptingManager * pScriptingManager )
+   28  {
+   29: 	pScriptingManager->RegisterFunction( "getPlayers", GetPlayers, 0, NULL);
+   30  }
+   31  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSharedVehicleNatives.cpp:
+   29  void CSharedVehicleNatives::Register( CScriptingManager * pScriptingManager )
+   30  {
+   31: 	pScriptingManager->RegisterFunction( "setVehiclePosition", SetPosition, 4, "ifff" );
+   32: 	pScriptingManager->RegisterFunction( "getVehiclePosition", GetPosition, 1, "i" );
+   33: 	pScriptingManager->RegisterFunction( "setVehicleRotation", SetRotation, 4, "ifff" );
+   34: 	pScriptingManager->RegisterFunction( "getVehicleRotation", GetRotation, 1, "i" );
+   35: 	pScriptingManager->RegisterFunction( "setVehicleColour", SetColour, 7, "iiiiiii" );
+   36: 	pScriptingManager->RegisterFunction( "getVehicleColour", GetColour, 1, "i" );
+   37: 	pScriptingManager->RegisterFunction( "setVehiclePlateText", SetPlateText, 2, "is" );
+   38: 	pScriptingManager->RegisterFunction( "getVehiclePlateText", GetPlateText, 1, "i" );
+   39: 	pScriptingManager->RegisterFunction( "repairVehicle", Repair, 1, "i" );
+   40: 	pScriptingManager->RegisterFunction( "setVehicleDirtLevel", SetDirtLevel, 2, "if" );
+   41: 	pScriptingManager->RegisterFunction( "getVehicleDirtLevel", GetDirtLevel, 1, "i" );
+   42: 	pScriptingManager->RegisterFunction( "setVehicleEngineState", SetEngineState, 2, "ib" );
+   43: 	pScriptingManager->RegisterFunction( "getVehicleEngineState", GetEngineState, 1, "i" );
+   44: 	pScriptingManager->RegisterFunction( "explodeVehicle", Explode, 1, "i" );
+   45: 	pScriptingManager->RegisterFunction( "setVehiclePartOpen", SetPartOpen, 3, "iib" );
+   46: 	pScriptingManager->RegisterFunction( "isVehiclePartOpen", IsPartOpen, 2, "ii" );
+   47: 	pScriptingManager->RegisterFunction( "setVehicleSirenState", SetSirenState, 2, "ib" );
+   48: 	pScriptingManager->RegisterFunction( "getVehicleSirenState", GetSirenState, 1, "i" );
+   49: 	pScriptingManager->RegisterFunction( "setVehicleBeaconLightState", SetBeaconLightState, 2, "ib");
+   50: 	pScriptingManager->RegisterFunction( "getVehicleBeaconLightState", GetBeaconLightState, 1, "i");
+   51: 	pScriptingManager->RegisterFunction( "setVehicleHornState", SetHornState, 2, "ib" );
+   52: 	pScriptingManager->RegisterFunction( "getVehicleHornState", GetHornState, 1, "i" );
+   53: 	pScriptingManager->RegisterFunction( "setVehicleWindowOpen", SetWindowOpen, 3, "iib" );
+   54: 	pScriptingManager->RegisterFunction( "isVehicleWindowOpen", IsWindowOpen, 2, "ii" );
+   55: 	pScriptingManager->RegisterFunction( "setVehicleTuningTable", SetTuningTable, 2, "ii" );
+   56: 	pScriptingManager->RegisterFunction( "getVehicleTuningTable", GetTuningTable, 1, "i" );
+   57: 	pScriptingManager->RegisterFunction( "setVehicleWheelModel", SetWheelTexture, 3, "iii" );
+   58: 	pScriptingManager->RegisterFunction( "getVehicleWheelModel", GetWheelTexture, 2, "ii" );
+   59: 	pScriptingManager->RegisterFunction( "getVehicleModel", GetModel, 1, "i" );
+   60: 	//pScriptingManager->RegisterFunction( "setVehicleModel", SetM, 2, "ii" );
+   61: 	pScriptingManager->RegisterFunction( "getVehicles", GetVehicles, 0, NULL );
+   62: 	pScriptingManager->RegisterFunction( "setVehicleSpeed", SetSpeed, 4, "ifff" );
+   63: 	pScriptingManager->RegisterFunction( "getVehicleSpeed", GetSpeed, 1, "i" );
+   64: 	pScriptingManager->RegisterFunction( "setVehicleFuel", SetFuel, 2, "if" );
+   65: 	pScriptingManager->RegisterFunction( "getVehicleFuel", GetFuel, 1, "i" );
+   66: 	pScriptingManager->RegisterFunction( "setVehicleLightState", SetLightState, 2, "ib" );
+   67: 	pScriptingManager->RegisterFunction( "getVehicleLightState", GetLightState, 1, "i" );
+   68: 	pScriptingManager->RegisterFunction( "setIndicatorLightState", SetIndicatorLightState, 3, "iib" );
+   69: 	pScriptingManager->RegisterFunction( "getIndicatorLightState", GetIndicatorLightState, 2, "ii" );
+   70: 	pScriptingManager->RegisterFunction( "setTaxiLightState", SetTaxiLightState, 2, "ib" );
+   71: 	pScriptingManager->RegisterFunction( "getTaxiLightState", GetTaxiLightState, 1, "i" );
+   72: 	pScriptingManager->RegisterFunction( "getVehicleHandbrake", GetVehicleHandbrake, 1, "i" );
+   73: 	pScriptingManager->RegisterFunction( "setVehicleHandbrake", SetVehicleHandbrake, 2, "ib" );
+   74: 	pScriptingManager->RegisterFunction( "setVehicleLocked", SetVehicleLocked, 2, "ib" );
+   75: 	pScriptingManager->RegisterFunction( "setVehicleEngineDamage", SetVehicleEngineDamage, 2, "if" );
+   76: 	pScriptingManager->RegisterFunction( "getVehicleEngineDamage", GetVehicleEngineDamage, 1, "i" );
+   77: 	pScriptingManager->RegisterFunction( "getVehicleGUID", GetVehicleGUID, 1, "i" );
+   78  
+   79  	pScriptingManager->RegisterConstant( "INDICATOR_LEFT", 1);
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CSystemNatives.cpp:
+   31  void CSystemNatives::Register( CScriptingManager * pScriptingManager )
+   32  {
+   33: 	pScriptingManager->RegisterFunction( "log", Log, 1, "s" );
+   34: 	pScriptingManager->RegisterFunction( "time", Time, 0, NULL );
+   35: 	pScriptingManager->RegisterFunction( "getTickCount", TickCount, 0, NULL );
+   36: 	pScriptingManager->RegisterFunction( "date", Date, 0, NULL );
+   37: 	pScriptingManager->RegisterFunction( "getPlayerCount", PlayerCount, 0, NULL );
+   38: 	pScriptingManager->RegisterFunction( "getMaxPlayers", MaxPlayers, 0, NULL );
+   39: 	pScriptingManager->RegisterFunction( "getServerName", ServerName, 0, NULL );
+   40: 	pScriptingManager->RegisterFunction( "strRand", StrRand, 1, "i");
+   41: 	pScriptingManager->RegisterFunction( "intConcat", IntConcat, 2, "ii");
+   42: 	pScriptingManager->RegisterFunction( "getDateTime", GetDateTime, 0, NULL);
+   43  }
+   44  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Shared\Scripting\Natives\CUtilNatives.cpp:
+   33  void CUtilNatives::Register( CScriptingManager * pScriptingManager )
+   34  {
+   35: 	pScriptingManager->RegisterFunction( "getPlayerIdFromName", PlayerIdFromName, 1, "s" );
+   36: 	pScriptingManager->RegisterFunction( "getWeaponNameFromId", WeaponNameFromId, 1, "i" );
+   37: 	pScriptingManager->RegisterFunction( "getWeaponIdFromName", WeaponIdFromName, 1, "s" );
+   38: 	pScriptingManager->RegisterFunction( "getVehicleFuelTankCapacityFromModel", GetFuelTankCapacityFromModel, 1, "i" );
+   39: 	pScriptingManager->RegisterFunction( "toRGBA", ToRGBA, 1, "i" );
+   40: 	pScriptingManager->RegisterFunction( "fromRGB", FromRGB, -1, NULL );
+   41: 	pScriptingManager->RegisterFunction( "clamp", Clamp, 3, "fff" );
+   42  }
+   43  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CBanNatives.cpp:
+   13  void CBanNatives::Register( CScriptingManager * pScriptingManager )
+   14  {
+   15: 	pScriptingManager->RegisterFunction( "banPlayer", BanPlayer, 4, "iiis" );
+   16: 	pScriptingManager->RegisterFunction( "banSerial", BanSerial, 4, "siis" );
+   17: 	pScriptingManager->RegisterFunction( "unbanSerial", UnbanSerial, 1, "s" );
+   18: 	pScriptingManager->RegisterFunction( "isSerialBanned", IsSerialBanned, 1, "s" );
+   19  }
+   20  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CHttpNatives.cpp:
+   13  void CHttpNatives::Register( CScriptingManager * pScriptingManager )
+   14  {
+   15: 	pScriptingManager->RegisterFunction( "webRequest", WebRequest, -1, NULL );
+   16  }
+   17  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CPlayerNatives.cpp:
+   13  void CPlayerNatives::Register( CScriptingManager * pScriptingManager )
+   14  {
+   15: 	pScriptingManager->RegisterFunction( "isPlayerConnected", IsConnected, 1, "i" );
+   16: 	pScriptingManager->RegisterFunction( "isPlayerSpawned", IsSpawned, 1, "i" );
+   17: 	pScriptingManager->RegisterFunction( "getPlayerName", GetName, 1, "i" );
+   18: 	pScriptingManager->RegisterFunction( "setPlayerName", SetName, 2, "is" );
+   19: 	pScriptingManager->RegisterFunction( "getPlayerSerial", GetSerial, 1, "i" );
+   20: 	pScriptingManager->RegisterFunction( "setPlayerPosition", SetPosition, 4, "ifff" );
+   21: 	pScriptingManager->RegisterFunction( "getPlayerPosition", GetPosition, 1, "i" );
+   22: 	pScriptingManager->RegisterFunction( "sendPlayerMessage", OutputMessage, -1, NULL );
+   23: 	pScriptingManager->RegisterFunction( "sendPlayerMessageToAll", OutputMessageToAll, -1, NULL );
+   24: 	pScriptingManager->RegisterFunction( "setPlayerRotation", SetRotation, 4, "ifff" );
+   25: 	pScriptingManager->RegisterFunction( "getPlayerRotation", GetRotation, 1, "i" );
+   26: 	pScriptingManager->RegisterFunction( "setPlayerHealth", SetHealth, 2, "if" );
+   27: 	pScriptingManager->RegisterFunction( "getPlayerHealth", GetHealth, 1, "i" );
+   28: 	pScriptingManager->RegisterFunction( "givePlayerWeapon", GiveWeapon, 3, "iii" );
+   29: 	pScriptingManager->RegisterFunction( "getPlayerWeapon", GetWeapon, 1, "i" );
+   30: 	pScriptingManager->RegisterFunction( "getPlayerWeaponBullet", GetWeaponBullet, 1, "i");
+   31: 	pScriptingManager->RegisterFunction( "removePlayerWeapon", RemoveWeapon, -1, NULL );
+   32: 	pScriptingManager->RegisterFunction( "setPlayerColour", SetColour, 2, "ii" );
+   33: 	pScriptingManager->RegisterFunction( "getPlayerColour", GetColour, 1, "i" );
+   34: 	pScriptingManager->RegisterFunction( "togglePlayerHud", ToggleHud, 2, "ib" );
+   35: 	pScriptingManager->RegisterFunction( "setPlayerMoney", SetMoney, 2, "ii" );
+   36: 	pScriptingManager->RegisterFunction( "givePlayerMoney", GiveMoney, 2, "ii" );
+   37: 	pScriptingManager->RegisterFunction( "takePlayerMoney", TakeMoney, 2, "ii" );
+   38: 	pScriptingManager->RegisterFunction( "getPlayerMoney", GetMoney, 1, "i" );
+   39: 	pScriptingManager->RegisterFunction( "togglePlayerControls", ToggleControls, 2, "ib" );
+   40: 	pScriptingManager->RegisterFunction( "kickPlayer", Kick, 1, "i" );
+   41: 	pScriptingManager->RegisterFunction( "playSoundForPlayer", PlaySound, 2, "is" );
+   42: 	pScriptingManager->RegisterFunction( "playSoundForAll", PlaySoundToAll, 1, "s" );
+   43: 	pScriptingManager->RegisterFunction( "stopSoundForPlayer", StopSound, 1, "i" );
+   44: 	pScriptingManager->RegisterFunction( "stopSoundForAll", StopSoundToAll, 0, NULL );
+   45: 	pScriptingManager->RegisterFunction( "getPlayerNetworkStats", GetNetworkStats, 1, "i" );
+   46: 	pScriptingManager->RegisterFunction( "triggerClientEvent", TriggerClientEvent, -1, NULL );
+   47: 	pScriptingManager->RegisterFunction( "setPlayerModel", SetModel, 2, "ii" );
+   48: 	pScriptingManager->RegisterFunction( "getPlayerModel", GetModel, 1, "i" );
+   49: 	pScriptingManager->RegisterFunction( "isPlayerInVehicle", IsInVehicle, 1, "i" );
+   50: 	pScriptingManager->RegisterFunction( "getPlayerVehicle", GetVehicle, 1, "i" );
+   51: 	pScriptingManager->RegisterFunction( "getPlayerPing", GetPing, 1, "i" );
+   52: 	pScriptingManager->RegisterFunction( "getPlayerIP", GetIP, 1, "i" );
+   53: 	pScriptingManager->RegisterFunction( "putPlayerInVehicle", PutInVehicle, 3, "iii" );
+   54: 	pScriptingManager->RegisterFunction( "removePlayerFromVehicle", RemoveFromVehicle, 1, "i" );
+   55: 	pScriptingManager->RegisterFunction( "respawnPlayer", RespawnPlayer, 1, "i" );
+   56: 	pScriptingManager->RegisterFunction( "setPlayerAnimStyle", SetAnimStyle, 3, "iss");
+   57: 	pScriptingManager->RegisterFunction( "setPlayerHandModel", SetHandModel, 3, "iii");
+   58  
+   59  	pScriptingManager->RegisterConstant( "HAND_LEFT", 1);
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CServerNatives.cpp:
+   14  void CServerNatives::Register( CScriptingManager * pScriptingManager )
+   15  {
+   16: 	pScriptingManager->RegisterFunction( "setGameModeText", SetGameModeText, 1, "s" );
+   17: 	pScriptingManager->RegisterFunction( "setMapName", SetMapName, 1, "s" );
+   18: 	pScriptingManager->RegisterFunction( "setWeather", SetWeather, 1, "s" );
+   19: 	pScriptingManager->RegisterFunction( "setSummer", SetSummer, 1, "b" );
+   20: 	pScriptingManager->RegisterFunction( "getNetworkStats", GetNetworkStats, 0, NULL );
+   21: 	pScriptingManager->RegisterFunction( "getWhoWas", GetWhoWasList, 0, NULL );
+   22: 	pScriptingManager->RegisterFunction( "clearWhoWas", ClearWhoWas, 0, NULL );
+   23: 	pScriptingManager->RegisterFunction( "getWhoWasCount", GetWhoWasCount, 0, NULL );
+   24: 	pScriptingManager->RegisterFunction( "shutdown", Shutdown, 0, NULL );
+   25: 	pScriptingManager->RegisterFunction( "startResource", StartResource, 1, "s" );
+   26: 	pScriptingManager->RegisterFunction( "stopResource", StopResource, 1, "s" );
+   27: 	pScriptingManager->RegisterFunction( "restartResource", RestartResource, 1, "s" );
+   28: 	pScriptingManager->RegisterFunction( "disableCityShops", DisableCityShops, 1, "b" );
+   29  }
+   30  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Server\CVehicleNatives.cpp:
+   13  void CVehicleNatives::Register( CScriptingManager * pScriptingManager )
+   14  {
+   15: 	pScriptingManager->RegisterFunction( "createVehicle", Create, 7, "iffffff" );
+   16: 	pScriptingManager->RegisterFunction( "destroyVehicle", Destroy, 1, "i" );
+   17  
+   18: 	pScriptingManager->RegisterFunction( "setVehicleRespawnTime", SetRespawnTime, 2, "ii" );
+   19: 	pScriptingManager->RegisterFunction( "getVehicleRespawnTime", GetRespawnTime, 1, "i" );
+   20  
+   21: 	pScriptingManager->RegisterFunction( "respawnVehicle", RespawnVehicle, 1, "i" );
+   22  }
+   23  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Client\C3DTextLabelNatives.cpp:
+   23  void C3DTextLabelNatives::Register(CScriptingManager * pScriptingManager)
+   24  {
+   25: 	pScriptingManager->RegisterFunction("create3DTextLabel", Create3DTextLabel, 6, "fffsif");
+   26: 	pScriptingManager->RegisterFunction("remove3DTextLabel", Remove3DTextLabel, 1, "i");
+   27: 	pScriptingManager->RegisterFunction("count3DTextLabels", GetCount, 0, NULL);
+   28: 	pScriptingManager->RegisterFunction("set3DTextLabelText", SetText, 2, "is");
+   29: 	pScriptingManager->RegisterFunction("set3DTextLabelDrawDistance", SetDrawDistance, 2, "if");
+   30: 	pScriptingManager->RegisterFunction("set3DTextLabelColor", SetColor, 2, "ii");
+   31: 	pScriptingManager->RegisterFunction("set3DTextLabelPosition", SetPosition, 4, "ifff");
+   32: 	pScriptingManager->RegisterFunction("set3DTextLabelActive", SetActive, 2, "ib");
+   33  
+   34  	pScriptingManager->RegisterConstant("MAX_3DTEXTLABELS", MAX_3DTEXTS);
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CCameraNatives.cpp:
+   22  void CCameraNatives::Register( CScriptingManager * pScriptingManager )
+   23  {
+   24: 	pScriptingManager->RegisterFunction( "getCameraPosition", GetPosition, 0, NULL );
+   25: 	pScriptingManager->RegisterFunction( "getCameraRotation", GetRotation, 0, NULL );
+   26: 	pScriptingManager->RegisterFunction( "simpleShake", SimpleShake, 3, "fff");
+   27  }
+   28  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CClientNatives.cpp:
+   29  void CClientNatives::Register( CScriptingManager * pScriptingManager )
+   30  {
+   31: 	pScriptingManager->RegisterFunction( "triggerServerEvent", TriggerServerEvent, -1, NULL );
+   32  
+   33  	// Key binds
+   34: 	pScriptingManager->RegisterFunction( "bindKey", BindKey, 3, "ssc" );
+   35: 	pScriptingManager->RegisterFunction( "unbindKey", UnbindKey, 2, "ss" );
+   36: 	pScriptingManager->RegisterFunction( "isKeyBound", IsKeyBound, 2, "ss" );
+   37  }
+   38  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGameNatives.cpp:
+   23  void CGameNatives::Register( CScriptingManager * pScriptingManager )
+   24  {
+   25: 	pScriptingManager->RegisterFunction( "setWeather", SetWeather, 1, "s" );
+   26: 	pScriptingManager->RegisterFunction( "getWeather", GetWeather, 0, NULL );
+   27: 	pScriptingManager->RegisterFunction( "toggleHud", ToggleHud, 1, "b" );
+   28: 	pScriptingManager->RegisterFunction( "takeScreenshot", TakeScreenshot, 0, NULL );
+   29: 	pScriptingManager->RegisterFunction( "fadeScreen", FadeScreen, -1, NULL );
+   30: 	pScriptingManager->RegisterFunction( "createHudTimer", CreateHudTimer, -1, NULL );
+   31: 	pScriptingManager->RegisterFunction( "setHudTimerRemainingTime", SetHudTimerRemainingTime, 1, "f" );
+   32: 	pScriptingManager->RegisterFunction( "getHudTimerReminaingTime", GetHudTimerRemainingTime, 0, NULL );
+   33: 	pScriptingManager->RegisterFunction( "startHudTimer", StartHudTimer, 0, NULL );
+   34: 	pScriptingManager->RegisterFunction( "stopHudTimer", StopHudTimer, 0, NULL );
+   35: 	pScriptingManager->RegisterFunction( "isHudTimerRunning", IsHudTimerRunning, 0, NULL );
+   36: 	pScriptingManager->RegisterFunction( "destroyHudTimer", DestroyHudTimer, 0, NULL );
+   37: 	pScriptingManager->RegisterFunction( "openMap", OpenMap, 0, NULL );
+   38: 	pScriptingManager->RegisterFunction( "isMapOpen", IsMapOpen, 0, NULL );
+   39: 	pScriptingManager->RegisterFunction( "setGPSTarget", SetGPSTarget, 3, "ffs" );
+   40: 	pScriptingManager->RegisterFunction( "removeGPSTarget", RemoveGPSTarget, 0, NULL );
+   41: 	pScriptingManager->RegisterFunction( "disableTranslocator", DisableTranslocator, 1, "b" );
+   42: 	pScriptingManager->RegisterFunction( "executeLuaHandler", ExecuteLuaHandler, 1, "s" );
+   43: 	pScriptingManager->RegisterFunction( "showHint", ShowHint, 4, "iisf" );
+   44  
+   45  	pScriptingManager->RegisterConstant("POS_TOPLEFT", 0);
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGraphicsNatives.cpp:
+   26  void CGraphicsNatives::Register( CScriptingManager * pScriptingManager )
+   27  {
+   28: 	pScriptingManager->RegisterFunction( "getFPS", GetFPS, 0, NULL );
+   29: 	pScriptingManager->RegisterFunction( "getScreenSize", GetScreenSize, 0, NULL );
+   30: 	pScriptingManager->RegisterFunction( "getMousePosition", GetMousePosition, 0, NULL );
+   31: 	pScriptingManager->RegisterFunction( "getScreenFromWorld", WorldToScreen, 3, "fff" );
+   32: 	pScriptingManager->RegisterFunction( "getWorldFromScreen", ScreenToWorld, 3, "fff" );
+   33: 	pScriptingManager->RegisterFunction( "showChat", ShowChat, 1, "b" );
+   34: 	pScriptingManager->RegisterFunction( "isChatVisible", IsChatVisible, 0, NULL );
+   35: 	pScriptingManager->RegisterFunction( "isInputVisible", IsInputVisible, 0, NULL );
+   36: 	pScriptingManager->RegisterFunction( "sendMessage", SendMessage, -1, NULL );
+   37  }
+   38  
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CGUINatives.cpp:
+   50  void CGUINatives::Register( CScriptingManager * pScriptingManager )
+   51  {
+   52: 	pScriptingManager->RegisterFunction( "dxCreateFont", NewFont, 3, "sib" );
+   53: 	pScriptingManager->RegisterFunction( "dxDrawText", DrawText, -1, NULL );
+   54: 	pScriptingManager->RegisterFunction( "dxDrawRectangle", DrawRectangle, 5, "ffffi" );
+   55: 	pScriptingManager->RegisterFunction( "dxDrawLine", DrawLine, 5, "ffffi" );
+   56: 	pScriptingManager->RegisterFunction( "dxGetTextDimensions", GetTextDimensions, 3, "sfs" );
+   57: 	pScriptingManager->RegisterFunction( "dxLoadTexture", LoadTexture, 1, "s" );
+   58: 	pScriptingManager->RegisterFunction( "dxDrawTexture", DrawTexture, -1, NULL );
+   59: 	pScriptingManager->RegisterFunction( "dxDestroyTexture", DestroyTexture, -1, NULL );
+   60: 	pScriptingManager->RegisterFunction( "isTransferBoxShowing", IsTransferBoxShowing, 0, NULL );
+   61: 	pScriptingManager->RegisterFunction( "showCursor", ShowCursor, 1, "b" );
+   62: 	pScriptingManager->RegisterFunction( "isCursorShowing", IsCursorShowing, 0, NULL );
+   63: 	pScriptingManager->RegisterFunction( "isMainMenuShowing", IsMainMenuShowing, 0, NULL );
+   64: 	pScriptingManager->RegisterFunction( "getFilePath", GetFilePath, 1, "s" );
+   65  
+   66  	// Register gui functions
+   67: 	pScriptingManager->RegisterFunction( "guiCreateElement", CreateElement, -1, NULL );
+   68: 	pScriptingManager->RegisterFunction( "guiDestroyElement", DestroyElement, 1, "p" );
+   69: 	pScriptingManager->RegisterFunction( "guiSetPosition", GuiSetPosition, -1, NULL );
+   70: 	pScriptingManager->RegisterFunction( "guiGetPosition", GuiGetPosition, -1, NULL );
+   71: 	pScriptingManager->RegisterFunction( "guiSetSize", GuiSetSize, -1, NULL );
+   72: 	pScriptingManager->RegisterFunction( "guiGetSize", GuiGetSize, -1, NULL );
+   73: 	pScriptingManager->RegisterFunction( "guiSetVisible", GuiSetVisible, 2, "pb" );
+   74: 	pScriptingManager->RegisterFunction( "guiIsVisible", GuiIsVisible, 1, "p" );
+   75: 	pScriptingManager->RegisterFunction( "guiSetText", GuiSetText, 2, "ps" );
+   76: 	pScriptingManager->RegisterFunction( "guiGetText", GuiGetText, 1, "p" );
+   77: 	pScriptingManager->RegisterFunction( "guiBringToFront", GuiBringToFront, 1, "p" );
+   78: 	pScriptingManager->RegisterFunction( "guiSendToBack", GuiSendToBack, 1, "p" );
+   79: 	pScriptingManager->RegisterFunction( "guiSetAlpha", GuiSetAlpha, 2, "pf" );
+   80: 	pScriptingManager->RegisterFunction( "guiGetAlpha", GuiGetAlpha, 1, "p" );
+   81: 	pScriptingManager->RegisterFunction( "guiSetAlwaysOnTop", GuiSetAlwaysOnTop, 2, "pb" );
+   82: 	pScriptingManager->RegisterFunction( "guiIsAlwaysOnTop", GuiIsAlwaysOnTop, 1, "p" );
+   83  
+   84  	//GUI_EDIT
+   85: 	pScriptingManager->RegisterFunction( "guiEditSetMasked", GuiSetInputMasked, 2, "pb" );
+   86: 	pScriptingManager->RegisterFunction( "guiEditIsMasked", GuiIsInputMasked, 1, "p" );
+   87  
+   88  	//GUI_IMAGE
+   89: 	pScriptingManager->RegisterFunction( "guiStaticImageLoadImage", GuiChangeImage, 2, "ps" );
+   90  
+   91  	//GUI_WINDOW
+   92: 	pScriptingManager->RegisterFunction( "guiWindowSetSizable", GuiSetSizable, 2, "pb" );
+   93: 	pScriptingManager->RegisterFunction( "guiWindowSetMovable", GuiSetMovable, 2, "pb" );
+   94  
+   95  	//GUI_COMBOBOX
+   96: 	pScriptingManager->RegisterFunction( "guiComboBoxAddItem", GuiComboBoxAddItem, 2, "ps" );
+   97: 	pScriptingManager->RegisterFunction( "guiComboBoxSetReadOnly", GuiComboBoxSetReadOnly, 2, "pb" );
+   98: 	pScriptingManager->RegisterFunction( "guiComboBoxClear", GuiComboBoxClear, 1, "p" );
+   99  
+  100  	//GUI_CHECKBOX
+  101: 	pScriptingManager->RegisterFunction( "guiCheckBoxSetSelected", GuiCheckBoxSetSelected, 2, "pb" );
+  102: 	pScriptingManager->RegisterFunction( "guiCheckBoxGetSelected", GuiCheckBoxGetSelected, 1, "p" );
+  103  
+  104  	//GUI_GRIDLIST
+  105: 	pScriptingManager->RegisterFunction( "guiGridListAddColumn", GuiGridListAddColumn, 3, "psf" );
+  106: 	pScriptingManager->RegisterFunction( "guiGridListAddRow", GuiGridListAddRow, 2, "pb" );
+  107: 	pScriptingManager->RegisterFunction( "guiGridListClear", GuiGridListClear, 1, "p" );
+  108: 	pScriptingManager->RegisterFunction( "guiGridListSetItemText", GuiGridListSetItemText, 7, "piisbbb" );
+  109: 	pScriptingManager->RegisterFunction( "guiGridListGetItemText", GuiGridListGetItemText, 3, "pii" );
+  110  
+  111  	// Register GUI constants
+
+C:\Users\Vadim\Documents\GitHub\M2OMP\Client\CPlayerNatives.cpp:
+   36  {
+   37  	// Functions
+   38: 	pScriptingManager->RegisterFunction( "getLocalPlayer", GetLocalPlayer, 0, NULL );
+   39: 	pScriptingManager->RegisterFunction( "getPlayerName", GetName, 1, "i" );
+   40: 	pScriptingManager->RegisterFunction( "setPlayerName", SetName, 2, "is" );
+   41: 	pScriptingManager->RegisterFunction( "getPlayerPing", GetPing, 1, "i" );
+   42: 	pScriptingManager->RegisterFunction( "getPlayerColour", GetColour, 1, "i" );
+   43: 	pScriptingManager->RegisterFunction( "isPlayerConnected", IsPlayerConnected, 1, "i" );
+   44: 	pScriptingManager->RegisterFunction( "isPlayerOnScreen", IsOnScreen, 1, "i" );
+   45: 	pScriptingManager->RegisterFunction( "isPlayerSpawned", IsSpawned, 1, "i" );
+   46: 	pScriptingManager->RegisterFunction( "setPlayerPosition", SetPosition, 4, "ifff" );
+   47: 	pScriptingManager->RegisterFunction( "getPlayerPosition", GetPosition, 1, "i" );
+   48: 	pScriptingManager->RegisterFunction( "setPlayerRotation", SetRotation, 4, "ifff" );
+   49: 	pScriptingManager->RegisterFunction( "getPlayerRotation", GetRotation, 1, "i" );
+   50: 	pScriptingManager->RegisterFunction( "setPlayerHealth", SetHealth, 2, "if" );
+   51: 	pScriptingManager->RegisterFunction( "getPlayerHealth", GetHealth, 1, "i" );
+   52: 	pScriptingManager->RegisterFunction( "togglePlayerControls", ToggleControls, 1, "b" );
+   53: 	pScriptingManager->RegisterFunction( "isTogglePlayerControls", IsToggleControls, 0, NULL );
+   54: 	pScriptingManager->RegisterFunction( "isPlayerInVehicle", IsInVehicle, 1, "i" );
+   55: 	pScriptingManager->RegisterFunction( "getPlayerVehicle", GetVehicle, 1, "i" );
+   56: 	pScriptingManager->RegisterFunction( "setPlayerDrunkLevel", SetDrunkLevel, 1, "i");
+   57: 	pScriptingManager->RegisterFunction( "getPlayerDrunkLevel", GetDrunkLevel, 0, NULL);
+   58: 	pScriptingManager->RegisterFunction( "resetPlayerDrunkLevel", ResetDrunkLevel, 0, NULL);
+   59: 	pScriptingManager->RegisterFunction( "setPlayerWantedLevel", SetWantedLevel, 2, "ii");
+   60: 	pScriptingManager->RegisterFunction( "getPlayerWantedLevel", GetWantedLevel, 0, NULL);
+   61: 	pScriptingManager->RegisterFunction( "getPlayerMoveState", GetMoveState, 1, "i" );
+   62: 	pScriptingManager->RegisterFunction( "setPlayerMoney", SetMoney, 2, "ii" );
+   63: 	pScriptingManager->RegisterFunction( "givePlayerMoney", GiveMoney, 2, "ii" );
+   64: 	pScriptingManager->RegisterFunction( "takePlayerMoney", TakeMoney, 2, "ii" );
+   65: 	pScriptingManager->RegisterFunction( "getPlayerMoney", GetMoney, 1, "i" );
+   66: 	pScriptingManager->RegisterFunction( "getPlayerGUID", getGUID, 1, "i" );
+   67: 	pScriptingManager->RegisterFunction( "reloadPlayerWeapon", ReloadWeapon, 1, "i" );
+   68  
+   69  	// rendering settings
+   70: 	pScriptingManager->RegisterFunction("setRenderNametags", SetRenderNametags, 1, "b");
+   71: 	pScriptingManager->RegisterFunction("setRenderHealthbar", SetRenderHealthbar, 1, "b");
+   72  
+   73  	// Constants
+
+285 matches across 21 files
