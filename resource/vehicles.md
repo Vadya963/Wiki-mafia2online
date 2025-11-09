@@ -13,7 +13,7 @@
 | 10 | ISW 508 | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823454064552543/DEB47603C2E7D55D2D44904207E3A6BF3EF884DB/) |
 | 11 | Walter Military | ![alt text](https://avatars.mds.yandex.net/i?id=1f69d8f5e591a3f5bf24b8e548de6259f29e8491-5355392-images-thumbs&n=13) |
 | 12 | Walter Utility | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823520160321669/8CF9FCA738B705E5CBBB7965D9518F13D80CFF77/) |
-| 13 | Jefferson Futura | ![alt text](https://images.steamusercontent.com/ugc/1022823520160252739/C6F268BD2F62FEB9FD35CC209BB90CD06127753D/) |
+| 13 | Jefferson Futura | ![alt text](https://avatars.mds.yandex.net/i?id=1c42b4a62c746e8c3c843500c7d87d9f_l-4118505-images-thumbs&n=13) |
 | 14 | Jefferson Provincial | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313829876/E471E138528C3217E1389926736E5AAD791D9D29/) |
 | 15 | Lassister Series 69 | ![alt text](https://static.wikia.nocookie.net/mafiagame/images/1/10/Lassiter_Series_69.png/revision/latest/scale-to-width-down/1200?cb=20121002115341) |
 | 16 | Lassister Series 69(copy) | ![alt text](https://static.wikia.nocookie.net/mafiagame/images/1/10/Lassiter_Series_69.png/revision/latest/scale-to-width-down/1200?cb=20121002115341) |
