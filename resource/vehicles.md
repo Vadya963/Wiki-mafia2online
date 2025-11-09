@@ -37,7 +37,7 @@
 | 34 | Shubert Truck | ![alt text](https://igcd.net/images2/030/829.jpg) |
 | 35 | Shubert Truck Flatbed | ![alt text](https://avatars.mds.yandex.net/i?id=5e736873f5171e13e87240525639cf46_l-4865933-images-thumbs&n=13) |
 | 36 | Shubert Truck Flatbed(with cigarettes) | ![alt text](https://avatars.mds.yandex.net/i?id=5e736873f5171e13e87240525639cf46_l-4865933-images-thumbs&n=13) |
-| 37 | Shubert Truck Covered | ![alt text](https://images.steamusercontent.com/ugc/1022823310313423705/B14F8EBCC5CCCB0801AEF149B4FED38F4CA835DD/) |
+| 37 | Shubert Truck Covered | ![alt text](https://images.stopgame.ru/uploads/users/2021/315558/r847x474/ybTq_16c9_NC0rUQPvNcNA/01558.Iyug4EV.png) |
 | 38 | Shubert Truck Seagift | ![alt text](https://avatars.dzeninfra.ru/get-zen_doc/163385/pub_5f814e21b1a4d95dc022dd76_6145e7c45667390b306ec662/scale_1200) |
 | 39 | Shubert Show Plow | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313505122/37E70D520C45B068E7DBD8CDC694A6AEC3E94B18/) |
 | 40 | Military Truck | ![alt text](https://avatars.mds.yandex.net/i?id=04dbeef7acce388896e9eb7e1a5f9661_l-5604449-images-thumbs&n=13) |
