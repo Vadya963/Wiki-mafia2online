@@ -39,7 +39,7 @@
 | 36 | Shubert Truck Flatbed(with cigarettes) | ![alt text](https://avatars.mds.yandex.net/i?id=5e736873f5171e13e87240525639cf46_l-4865933-images-thumbs&n=13) |
 | 37 | Shubert Truck Covered | ![alt text](https://images.stopgame.ru/uploads/users/2021/315558/r847x474/ybTq_16c9_NC0rUQPvNcNA/01558.Iyug4EV.png) |
 | 38 | Shubert Truck Seagift | ![alt text](https://avatars.dzeninfra.ru/get-zen_doc/163385/pub_5f814e21b1a4d95dc022dd76_6145e7c45667390b306ec662/scale_1200) |
-| 39 | Shubert Show Plow | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313505122/37E70D520C45B068E7DBD8CDC694A6AEC3E94B18/) |
+| 39 | Shubert Snow Plow | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313505122/37E70D520C45B068E7DBD8CDC694A6AEC3E94B18/) |
 | 40 | Military Truck | ![alt text](https://avatars.mds.yandex.net/i?id=04dbeef7acce388896e9eb7e1a5f9661_l-5604449-images-thumbs&n=13) |
 | 41 | Smith Custom 200 | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313638793/8FDDEAF78F14E2D190ADB915EEC6A5AF38EE0521/) |
 | 42 | Smith Custom 200 Police Special | ![alt text](https://steamuserimages-a.akamaihd.net/ugc/1022823310313663178/94E7B6A8027E4B49609E81045C879A7F30DC2920/) |
